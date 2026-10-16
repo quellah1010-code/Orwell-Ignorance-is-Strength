@@ -14,7 +14,8 @@ from orwell_resources import SOURCE_SHA256, load_original, patch, records
 ROOT = Path(__file__).resolve().parents[1]
 FONT_URL = 'https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf'
 LICENSE_SHA256 = '6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2'
-EXPECTED_PREVIEW_SHA256 = '75d28f1473b3e1722a6d3647a471ccb172efae0423eed969ec0d75460cac9646'
+# Verified with explicit BASIC glyph layout, matching the Windows build.
+EXPECTED_PREVIEW_SHA256 = 'f36dbcf44611734ca4e7c7b5ffa8fb31a9977ff1ec7f4cb705cb2dd4f8a0903f'
 
 
 def digest(data):
@@ -110,7 +111,7 @@ def deliver(source, font, output):
             raise ValueError('Archived resource hash verification failed.')
     print(f'Local ZIP: {archive_path}')
     print(f'ZIP SHA-256: {digest(archive_path.read_bytes())}')
-    print('Resource bytes match the existing 0.1 preview. Windows gameplay remains untested.')
+    print('Resource bytes match the verified BASIC-layout preview. Windows gameplay remains untested.')
     print('Generated files contain game resources. Keep this build directory local.')
 
 

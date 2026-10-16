@@ -90,6 +90,22 @@ orwell-zh-preview-0.1.zip
 
 退出游戏，把第 5 步保存的原版 `resources.assets` 复制回游戏的 `Ignorance_Data`，替换测试文件即可。
 
+## 旧版在 Windows 报 `The rebuilt resource differs`，怎样更新
+
+旧版脚本让 Pillow 自动选择字体排版引擎：云端使用 RAQM，而本次 Windows 输出与 BASIC 的结果一致。已在 Linux 切换为 BASIC 后复现 Windows 日志中的完整资源哈希。修复版在两个字号上都明确使用 BASIC，继续执行原文件、字体、资源对象、最终文件和 ZIP 校验。
+
+如果你已成功安装依赖、但在生成 ZIP 前遇到这个错误：
+
+1. [重新下载 main 源码 ZIP](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/archive/refs/heads/main.zip)，解压到一个新文件夹。
+2. 把新解压内容中的整个 `tools` 文件夹复制到你原来的工具文件夹（例如 `Orwell-Ignorance-is-Strength-work`），同意替换文件。需要更新的是 `build_preview.py` 和 `build_preview_font.py`；保留原来的 `.venv` 和 `.cache`，不需要重装依赖。
+3. 在原来的工具文件夹打开 PowerShell，运行下面命令，用新的输出目录避开之前未完成的构建：
+
+```powershell
+.\.venv\Scripts\python.exe tools/build_preview.py --game-dir "E:\SteamLibrary\steamapps\common\Orwell Ignorance is Strength" --output build/preview-0.1-winfix
+```
+
+成功后打开 `build/preview-0.1-winfix/orwell-zh-preview-0.1.zip`，再按上面的备份和安装步骤操作。不要安装旧目录中的 `text-only-internal.assets`。如果 `preview-0.1-winfix` 已存在，可换一个新的输出目录名。游戏内显示仍需实际测试。
+
 ## 遇到问题怎么办
 
 | 看到的情况 | 接下来怎么做 |
@@ -101,7 +117,7 @@ orwell-zh-preview-0.1.zip
 | `Unsupported source build or already modified resources.assets` | 文件版本不同，或已装过测试包。用自己的原版备份构建，命令见下方；不要把补丁文件当原版输入。 |
 | `Output already exists` | 已有输出不会被覆盖。确认已有 ZIP，或给构建命令加上 `--output build/preview-0.1-rebuild`，使用新的输出目录。 |
 | 字体下载失败或 `Font checksum mismatch` | 先停止并反馈错误；不要跳过校验。 |
-| `The rebuilt resource differs` | 此环境生成的资源与校验小样不一致，脚本不会生成 ZIP。先反馈错误，不要手动安装中间产物。 |
+| `The rebuilt resource differs` | 先按上面的“旧版在 Windows 报错”步骤更新两个工具文件；更新后仍报错则反馈完整日志，不要手动安装中间产物。 |
 | 游戏中文字异常、卡住或无法启动 | 先退出并恢复原版备份，再反馈现象。 |
 
 如果游戏目录中的文件已经被替换，可以从原版备份构建。下面路径只是例子，请换成自己的备份位置：
@@ -112,7 +128,7 @@ orwell-zh-preview-0.1.zip
 
 ## 已验证与尚未验证的范围
 
-资源回填、对象引用、字库覆盖和贴图重新读取已在 Linux/Python 3.12 中验证。构建脚本检查生成资源是否与已有小样逐字节一致；**尚未完成 Windows 构建及游戏内显示、换行、交互验证**。原始 ZIP 的完整性记录见 [交付校验记录](docs/delivery-verification.json)。新 ZIP 使用固定元数据，ZIP 哈希可能与原压缩包不同，内部游戏资源哈希必须相同。
+资源回填、对象引用、字库覆盖和贴图重新读取已在 Linux/Python 3.12 中验证。构建脚本检查生成资源是否与明确指定 BASIC 引擎的校验小样逐字节一致。用户提供的 Windows 日志已通过资源结构、译文和字体检查，其资源哈希与 Linux BASIC 构建一致；**修复后 Windows ZIP 打包及游戏内显示、换行、交互尚待实机确认**。原始 ZIP 的完整性记录见 [交付校验记录](docs/delivery-verification.json)。新 ZIP 使用固定元数据。早期 RAQM 小样与修复版 BASIC 小样的资源哈希不同；当前脚本只接受已复现的 BASIC 资源哈希 `f36dbcf44611734ca4e7c7b5ffa8fb31a9977ff1ec7f4cb705cb2dd4f8a0903f`，没有关闭哈希校验。
 
 输入原版 `resources.assets` 必须匹配本次测试的版本，SHA-256 为：
 

@@ -124,8 +124,11 @@ def make_atlas(font_path, chars, atlas_size=2048, point_size=64, padding=9):
     }
     tt.close()
     scale = 4
-    regular = ImageFont.truetype(str(font_path), point_size)
-    highres = ImageFont.truetype(str(font_path), point_size * scale)
+    # Pillow otherwise selects RAQM when installed and BASIC when unavailable.
+    # That changes glyph metrics and atlas pixels across Linux/Windows builds.
+    # Each glyph is rendered separately, so use BASIC explicitly on all hosts.
+    regular = ImageFont.truetype(str(font_path), point_size, layout_engine=ImageFont.Layout.BASIC)
+    highres = ImageFont.truetype(str(font_path), point_size * scale, layout_engine=ImageFont.Layout.BASIC)
     atlas = Image.new('L', (atlas_size, atlas_size), 0)
     glyphs = []
     cursor_x = cursor_y = 0

@@ -18,5 +18,15 @@
       "wrong font rejected"
     ],
     "original_input_unchanged": true
+  },
+  "basic_layout_fix": {
+    "reason": "Pillow default RAQM/BASIC selection changes glyph output; explicitly select BASIC at both font sizes.",
+    "linux_reproduced_windows_resource_sha256": "f36dbcf44611734ca4e7c7b5ffa8fb31a9977ff1ec7f4cb705cb2dd4f8a0903f",
+    "linux_fixed_zip_sha256": "de7c9d66c491d2324b0dd3a5a4b306a355f5914ad339580dfc77b9c60544562a",
+    "linux_fixed_zip_crc_verified": true,
+    "host_layout_defaults_regression_passed": true,
+    "corrupted_resource_rejected": true,
+    "windows_fixed_packaging_confirmed": false,
+    "runtime_tested": false
   }
 }
