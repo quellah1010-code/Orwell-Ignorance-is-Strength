@@ -1,0 +1,22 @@
+{
+  "artifact": "orwell-zh-preview-0.1.zip",
+  "bytes": 918578,
+  "sha256": "788e1e5b0c0ce9ee9a25e3ebd8d2bc8467991a9c04d117bca18b4d1576decb4d",
+  "crc_verified": true,
+  "entries": 5,
+  "resource_sha256": "75d28f1473b3e1722a6d3647a471ccb172efae0423eed969ec0d75460cac9646",
+  "scope": "14 text entries, not a complete chapter",
+  "runtime_tested": false,
+  "source_delivery_build": {
+    "platform": "Linux, Python 3.12",
+    "resource_matches_original_preview": true,
+    "zip_sha256": "5d04eb25405135af3b069f811497d22d2817ccbce09e648ec2a3646b526e3323",
+    "zip_crc_verified": true,
+    "negative_checks": [
+      "existing output rejected",
+      "wrong source rejected",
+      "wrong font rejected"
+    ],
+    "original_input_unchanged": true
+  }
+}

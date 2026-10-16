@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "scope": "preview-0.1: 11 introduction commentary records and 3 early objectives; not a full chapter",
+  "source_asset_sha256": "1bc553fdc10358d2a4f78de1e2079a61ee46dc993636403dcfbc7b052b607b78",
+  "source_language_index": 1,
+  "translations": [
+    {
+      "key": "resources.assets/1137/_text/en",
+      "path_id": 1137,
+      "field": "_text",
+      "source_text_sha256": "65eb18d30a72b4f5acc34a12115d73ef3e4156b30be7fe8b4618154f907135ee",
+      "target": "嗯。也就是说，你在能力测试中撒了谎，还主动承认了。你要么天真到了极点，要么……"
+    },
+    {
+      "key": "resources.assets/1138/_text/en",
+      "path_id": 1138,
+      "field": "_text",
+      "source_text_sha256": "241a24fc653e04ae963a15ca83fb32df6b01caa8e2857696cb544b0ad1539171",
+      "target": "……对我们十分忠诚。你或许正是我需要的人。"
+    },
+    {
+      "key": "resources.assets/1247/_text/en",
+      "path_id": 1247,
+      "field": "_text",
+      "source_text_sha256": "241a24fc653e04ae963a15ca83fb32df6b01caa8e2857696cb544b0ad1539171",
+      "target": "……对我们十分忠诚。你或许正是我需要的人。"
+    },
+    {
+      "key": "resources.assets/1258/_text/en",
+      "path_id": 1258,
+      "field": "_text",
+      "source_text_sha256": "bcabf581bea6b26d321becd0f9d983cd491bdae36aca97e69f720ce3c9915920",
+      "target": "……愿意按自己的意愿改写真相。你或许正是我需要的人。"
+    },
+    {
+      "key": "resources.assets/1269/_text/en",
+      "path_id": 1269,
+      "field": "_text",
+      "source_text_sha256": "3b0025ad3acfa5302a54c1a61dd0a4d06438fd2755f394fb6622eadec32050b3",
+      "target": "我叫安普尔福德，隶属于政府的一个特殊部门——“办公室”。我们负责处理那些……棘手的事务。"
+    },
+    {
+      "key": "resources.assets/1280/_text/en",
+      "path_id": 1280,
+      "field": "_text",
+      "source_text_sha256": "e15987cf61fdc358c33c0cc7be6ae97515d8066d0fde7cdfd4c834d35b301def",
+      "target": "一个叫奥列格·巴凯的男人几天前失踪了。我们最后得到的消息，就是刚才放给你听的那通电话。"
+    },
+    {
+      "key": "resources.assets/1291/_text/en",
+      "path_id": 1291,
+      "field": "_text",
+      "source_text_sha256": "0202c755c24ef3c5b2b0bfc696d601ed1cc83a1e07809ed85880d3e9d6243c48",
+      "target": "我已将那段对话的文字记录加入你的阅读器（Reader）。你可以再读一遍，也可以听录音。看完后，打开左侧的“身份不明者”（Unknown person）档案。"
+    },
+    {
+      "key": "resources.assets/1302/_text/en",
+      "path_id": 1302,
+      "field": "_text",
+      "source_text_sha256": "6821c33d319650ce9cebd621a97e7256fe53a2999e84d040b7264b42c81e6867",
+      "target": "嗯。也就是说，你以为能力测试想重做就能重做？你要么天真到了极点，要么……"
+    },
+    {
+      "key": "resources.assets/1313/_text/en",
+      "path_id": 1313,
+      "field": "_text",
+      "source_text_sha256": "bcabf581bea6b26d321becd0f9d983cd491bdae36aca97e69f720ce3c9915920",
+      "target": "……愿意按自己的意愿改写真相。你或许正是我需要的人。"
+    },
+    {
+      "key": "resources.assets/1324/_text/en",
+      "path_id": 1324,
+      "field": "_text",
+      "source_text_sha256": "64a8b843692daee70f3f8906954707b6583c3d33d8b28d604abb5c48323397b6",
+      "target": "嗯。也就是说，你就这么接受了被取消资格？你要么愚蠢到了极点，要么……"
+    },
+    {
+      "key": "resources.assets/1335/_text/en",
+      "path_id": 1335,
+      "field": "_text",
+      "source_text_sha256": "89af49701cd407a7136a1f54f662365bef7909c514703d418c05ef0a0fc78ecf",
+      "target": "嗯。也就是说，你在能力测试中“如实”作答了。你要么是个既明目张胆又天真的骗子，要么……"
+    },
+    {
+      "key": "resources.assets/1515/_objectiveText/en",
+      "path_id": 1515,
+      "field": "_objectiveText",
+      "source_text_sha256": "d9c21d90a22f8821a515ee16ed1c7fbb8ca2a04498174675d08d438c9c84113a",
+      "target": "找到 {CHAR_BAYTE} 手机的解锁密码，解锁手机。"
+    },
+    {
+      "key": "resources.assets/1516/_objectiveText/en",
+      "path_id": 1516,
+      "field": "_objectiveText",
+      "source_text_sha256": "cbb367a7517c6a349d3a3991b86eb475cfdb7f7eb1fbd57d7820c1a28d31cff4",
+      "target": "查明 {CHAR_RABAN} 与 {CHAR_BAYTE} 之间的联系。"
+    },
+    {
+      "key": "resources.assets/1517/_objectiveText/en",
+      "path_id": 1517,
+      "field": "_objectiveText",
+      "source_text_sha256": "b1b889e0056909a728124cc3707e4775c85b98225cbcfc003fa441962ce23de8",
+      "target": "查明 {CHAR_BAYTE} 的下落。"
+    }
+  ]
+}

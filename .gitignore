@@ -1,0 +1,37 @@
+# Local tool environments and generated output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+build/
+dist/
+input/
+extracted/
+analysis/
+
+# Never commit original game files or generated game-resource packages
+*.dll
+*.exe
+*.assets
+*.resS
+*.ress
+*.resource
+*.bundle
+*.patch
+*.bsdiff
+*.zip
+*.7z
+*.rar
+*.il
+*.log
+globalgamemanagers
+level[0-9]*
+Managed/
+AssetBundles/
+Ignorance_Data/
+
+# Fonts are fetched and verified locally; keep only their license in Git
+*.otf
+*.ttf
+*.ttc
