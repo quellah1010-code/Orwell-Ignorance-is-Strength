@@ -1,7 +1,9 @@
 # Orwell: Ignorance is Strength 中文测试包构建工具
 
-本项目对应仓库 **quellah1010-code/Orswell-ingnorance**：
-https://github.com/quellah1010-code/Orswell-ingnorance
+本项目对应仓库 **quellah1010-code/Orwell-Ignorance-is-Strength**：
+https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength
+
+原仓库地址 `quellah1010-code/Orswell-ingnorance` 已由 GitHub 重定向到上述新名称；这里的下载和教程链接均使用新地址。
 
 目前仅交付已有的 0.1 小样：11 条开场介绍对白（含不同分支）和 3 条早期任务，共 14 条文本，以及覆盖这些译文的中文备用字库。**这不是完整第一章或全游戏汉化。** 此次整理只解决源码交付和本地重建，没有增加汉化范围。
 
@@ -11,8 +13,8 @@ https://github.com/quellah1010-code/Orswell-ingnorance
 
 **当前教程和代码在 `work` 分支。** 如果仓库首页只有一行标题，请点击文件列表左上方显示 `main` 的分支按钮，切换到 `work`。
 
-- [直接打开带教程的 work 分支](https://github.com/quellah1010-code/Orswell-ingnorance/tree/work)
-- [直接下载源码 ZIP](https://github.com/quellah1010-code/Orswell-ingnorance/archive/refs/heads/work.zip)
+- [直接打开带教程的 work 分支](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/tree/work)
+- [直接下载源码 ZIP](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/archive/refs/heads/work.zip)
 
 下载的是构建工具，不能直接覆盖到游戏里。下面会用你电脑上已经安装的原版游戏，在本地生成可安装的测试包。**不需要安装 Git，也不需要配置云环境或等 PR 合并。**
 
@@ -114,7 +116,7 @@ orwell-zh-preview-0.1.zip
 
 如果你作为仓库所有者，希望教程出现在默认 `main` 首页，可以：
 
-1. 打开 [work → main 的比较页面](https://github.com/quellah1010-code/Orswell-ingnorance/compare/main...work?expand=1)。
+1. 打开 [work → main 的比较页面](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/compare/main...work?expand=1)。
 2. 确认 **base: main**、**compare: work**，点击 **Create pull request**，填写标题，例如“交付中文测试包工具和安装教程”，提交。
 3. 在 PR 页确认改动只包含源码、译文及说明，且没有合并冲突后，点击 **Merge pull request** → **Confirm merge**。如果页面提示已有 PR，打开已有 PR 即可；若按钮不可用，先查看页面提示，不要强行覆盖分支。
 4. 回到仓库首页，`main` 中便会显示合并后的 README。
