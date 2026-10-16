@@ -20,15 +20,16 @@ def verify_text(source, entry):
     target = entry['target']
     if not target or '\0' in target:
         raise ValueError('Empty or invalid UI translation.')
-    for pattern in (r'\{[^{}]*\}', r'<[^<>]*>'):
-        if collections.Counter(re.findall(pattern, source)) != collections.Counter(re.findall(pattern, target)):
-            raise ValueError('UI translation changed placeholders or markup.')
+    if collections.Counter(re.findall(r'\{[^{}]*\}', source)) != collections.Counter(re.findall(r'\{[^{}]*\}', target)):
+        raise ValueError('UI translation changed placeholders.')
+    if re.findall(r'<[^<>]*>', source) != re.findall(r'<[^<>]*>', target):
+        raise ValueError('UI translation changed markup or link order.')
     return target
 
 
-def patch_scene(content, mapping):
-    if digest(content) != mapping['source_hashes']['level1']:
-        raise ValueError('level1 differs from the supported original game build.')
+def patch_scene(content, mapping, filename='level1'):
+    if digest(content) != mapping['source_hashes'][filename]:
+        raise ValueError(f'{filename} differs from the supported original game build.')
     asset = next(iter(UnityPy.load(content).files.values()))
     original = {pid: obj.get_raw_data() for pid, obj in asset.objects.items()}
     expected = dict(original)

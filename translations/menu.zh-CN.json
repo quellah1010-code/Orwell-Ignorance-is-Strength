@@ -1367,6 +1367,11 @@
       "token": 98984,
       "source_text_sha256": "6c6c1ad6c9d5d86444906e9ae90c2aa7068b4a286ac81be085dcd4f78130232e",
       "target": "在岗天数：0"
+    },
+    {
+      "token": 94906,
+      "source_text_sha256": "11b39c93777e8f1f3983bdba7c72b22fe68cfea20c677e9de53e17cb7dbfb19f",
+      "target": "特工"
     }
   ]
 }

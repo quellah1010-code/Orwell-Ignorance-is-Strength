@@ -1,0 +1,1104 @@
+{
+  "schema_version": 1,
+  "source_hashes": {
+    "level4": "70c4603bf798190c4ffa64375e66649e13f757cc0cfdac6722a17dea13374987"
+  },
+  "scene": [
+    {
+      "path_id": 950,
+      "field": "m_text",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "a7d8453416b59c4e2c6a0eb9678fe60026fa04e439116bd79403b9555e28faa1",
+      "source_text_sha256": "fadceb21524e4a1758f70c8afa7cf6ed2ddcd138f660af47d67643001cc5b5d8",
+      "target": "成绩不合格"
+    },
+    {
+      "path_id": 952,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "eea4c9dec93a884fe497dc466ce0615e44778bf29254aa91eac2953fbe247f2b",
+      "source_text_sha256": "021e5a7aaaf2d0df6c85bf2fc291ebf4a8dbe6944eb9563e65dc89da363d8130",
+      "target": "任务 5"
+    },
+    {
+      "path_id": 953,
+      "field": "m_text",
+      "offset": 196,
+      "span": 240,
+      "source_object_sha256": "e8ea3fda32dccc16437a9f011fef4f4c26a40dd260cdd2fd0dbb2d02d1af1200",
+      "source_text_sha256": "dca1f0a2c65fb1db9869fa2d3ad710f42ebdcb73167f052b573e835be88c2221",
+      "target": "本测试要求你完成一组任务。请仔细遵循屏幕上的指示，并如实表达自己的想法。\n\n请注意：测试成绩不合格，将永久取消你执行特别任务的资格。"
+    },
+    {
+      "path_id": 954,
+      "field": "m_text",
+      "offset": 196,
+      "span": 584,
+      "source_object_sha256": "32e83d9b29b2e83a7cf33c2b61a37882943998f48d9d0c9080c0c8e79d6e5869",
+      "source_text_sha256": "14bdc694ad20f2554bc9f76b8b6df2fe055cdf0a25c384017f91097f5227f77b",
+      "target": "<link=\"data_task_dickmove\"><color=#FFFFFF>· 我不告诉朋友，找机会向国家有关部门举报。</color></link>\r\n<link=\"data_task_warnfriend\"><color=#FFFFFF>· 我警告朋友，我也为奥威尔工作；如果继续这样，我就不得不向有关部门举报。</color></link>\r\n<link=\"data_task_ignorance\"><color=#FFFFFF>· 我假装不知情，但暗示朋友不宜谈论如此敏感的工作。</color></link>\r\n<link=\"data_task_nothingtodo\"><color=#FFFFFF>· 我什么也不做。</color></link>"
+    },
+    {
+      "path_id": 955,
+      "field": "m_text",
+      "offset": 196,
+      "span": 104,
+      "source_object_sha256": "c05041da55a339dec87a4bb6bdbbd484f3b217ac9c58acfa05b4e57517357ab5",
+      "source_text_sha256": "2594b59a463cb6daebd1f005f0c47c443e4eb66b0a813c620ce0c927c0bb7c22",
+      "target": "如果必须选择，你更愿意让调查员查看你的医疗档案，还是交友档案？"
+    },
+    {
+      "path_id": 956,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "c72d70b4b2aa1f3e09a0990083bfef0e3308915b27f7ed54042fec5e33bc8bc8",
+      "source_text_sha256": "ffacb99d020977e9017cbdead1de56dde2343c2527a1a8729d90c444539d8c34",
+      "target": "操作系统"
+    },
+    {
+      "path_id": 957,
+      "field": "m_text",
+      "offset": 196,
+      "span": 164,
+      "source_object_sha256": "2cced9d95a8185f36a7538a6735c48b9a7151bbcf19768625c04ba9c036afb18",
+      "source_text_sha256": "5dc07ae7209b567e183d090ec85b6c9d574898a1f1cd8a4b983fe9e52a4d6b7a",
+      "target": "将其中一条相互矛盾的信息拖入屏幕左侧的答题栏。只能选择一条，且提交后无法更改。"
+    },
+    {
+      "path_id": 958,
+      "field": "m_text",
+      "offset": 196,
+      "span": 68,
+      "source_object_sha256": "d44c2c6ebb3a5810e1880e4477421901e0a7882b5d1294ec39c69e703895bddc",
+      "source_text_sha256": "36cf58abeec520d263e7182f47080ba75e12490ca63a8fc9d9535d91abaf56fe",
+      "target": "以下哪些陈述符合你的想法？"
+    },
+    {
+      "path_id": 959,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "9b4afdeabb31350dd0757306576b4ecef703ecc9a049579c385806ef3acf08fe",
+      "source_text_sha256": "846b940c092e5c43e5c5abb09dd0450b3f04731c479ea654156ed60df1fcbf90",
+      "target": "提交答案"
+    },
+    {
+      "path_id": 960,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "af8309889d5457fbb29d9bd8e944ddbc5aa23747876bfaa56205661f62d4544a",
+      "source_text_sha256": "21aae296b87c0f33663bade3148e2d76552e17e523a277ab05794c61db652315",
+      "target": "任务 4"
+    },
+    {
+      "path_id": 961,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "55e79435276d494d51f9f26e7125c5e82c7eb29190e50fca4e89c578a1657689",
+      "source_text_sha256": "304bc9496ce6be541bc1deda1ed740922d4e683d29f2fec2906a4895dcacb19f",
+      "target": "感谢你"
+    },
+    {
+      "path_id": 962,
+      "field": "m_text",
+      "offset": 196,
+      "span": 76,
+      "source_object_sha256": "48e5d11486be98bd635bc8cea7a28f58c291e9624440edda3cf418c9536e983b",
+      "source_text_sha256": "3d41c0afa56a8c790adeb5008e3483577bc31c00adf75aedbbb1b59a242f171a",
+      "target": "你认为以下哪些说法是正确的？也可以一项都不选。"
+    },
+    {
+      "path_id": 963,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "a1e386f6a6b6967fa8107095c16ce8f7ea27e0966b640278c907c1ae2f8e9590",
+      "source_text_sha256": "3182998d4416333c6f769cacb6fffa38d0e9481abf2fa848c35368fa77bfd8d7",
+      "target": "能力测试"
+    },
+    {
+      "path_id": 964,
+      "field": "m_text",
+      "offset": 196,
+      "span": 540,
+      "source_object_sha256": "036e4b45900616d27527a040e79dcb42c6942d6ccd5ddf6a23ba44068051c822",
+      "source_text_sha256": "5d44fa43af34039931faab0e1e59e74f2fb6760210c432a076a9f0ec925a0422",
+      "target": "<link=\"data_task_unjustlaw\"><color=#FFFFFF>· 不公正的法律可以、也应该被违反。</color></link>\r\n<link=\"data_task_lying\"><color=#FFFFFF>· 任何谎言都没有正当理由。</color></link>\r\n<link=\"data_task_understandpov\"><color=#FFFFFF>· 凡事都有两面。</color></link>\r\n<link=\"data_task_governmentauthority\"><color=#FFFFFF>· 政府应不惜一切手段保障公民安全。</color></link>\r\n<link=\"data_task_absolutetruth\"><color=#FFFFFF>· 绝对真理确实存在。</color></link>"
+    },
+    {
+      "path_id": 965,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "bbcea3d361406ddb4caf5838e37a1c8b9c9f8d9e54357370532e793b9707ef4c",
+      "source_text_sha256": "c1143410e38092c7b32b3f6bb13496ad5ab14290a7321acdda9c208350bc6ca8",
+      "target": "任务 6"
+    },
+    {
+      "path_id": 966,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "faa3ddffa434ddb1b9024bba21cbd4582a9100a443cb3bac5e02c5bb71823688",
+      "source_text_sha256": "2fae6fb30b0d0077f771923d6d037d8e43c45e6078e2b3c31637a489c029cee5",
+      "target": "电子邮箱"
+    },
+    {
+      "path_id": 968,
+      "field": "m_text",
+      "offset": 196,
+      "span": 240,
+      "source_object_sha256": "2e08d80d070f1b9abb4f7166c289d4a97e1a00e46a804ed6409396cc260c1f2e",
+      "source_text_sha256": "d989cea8cb0de15181485b720f889547d37bdbd5c31700b3508bcffe813c3669",
+      "target": "<link=\"data_task_medicalprofile\"><color=#FFFFFF>· 我更愿意让人调查我的医疗档案。</color></link>\r\n<link=\"data_task_datingprofile\"><color=#FFFFFF>· 我更愿意让人调查我的交友档案。</color></link>"
+    },
+    {
+      "path_id": 969,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "57a60d65d71f4f57d3e2376bf45f1b1baa58f0b7267a9e3e41e2213680d1baca",
+      "source_text_sha256": "870e8f907ba2414432d27fdd10e7fed12491751e46b85f6d61c5ae30c9127d50",
+      "target": "申请人编号"
+    },
+    {
+      "path_id": 970,
+      "field": "m_text",
+      "offset": 196,
+      "span": 116,
+      "source_object_sha256": "d50359b15db4bd5a0cbf473edf5a4150351d3b32ce6a64ae6d3cbee7893a6b26",
+      "source_text_sha256": "58ec779763b0a83b99eea5e4219ed52e607d228f0b927d70322e93cb13d03c06",
+      "target": "将信息拖入屏幕左侧的答题栏。请注意：提交后无法更改。"
+    },
+    {
+      "path_id": 973,
+      "field": "m_text",
+      "offset": 196,
+      "span": 92,
+      "source_object_sha256": "c78dccaf5036f50712252914a212b6d5e06afb152c07b8f00605bf7c42264ff2",
+      "source_text_sha256": "ac49169af34fd7d0cbfad5470bc2dbc6814a9ac023263be333a149fad2fd8f6c",
+      "target": "你愿意主动向调查员提供交友档案中的哪些信息？"
+    },
+    {
+      "path_id": 974,
+      "field": "m_text",
+      "offset": 196,
+      "span": 72,
+      "source_object_sha256": "d1d12eea757f3aa9c750cf5ea8207a736a4947dc4b63b7ec1476cbe7ebc681c7",
+      "source_text_sha256": "c96bc3d126265855c15dc5890c945079e3589a26538fc6bcd560f06ac10b00fa",
+      "target": "你未通过能力测试！你将被永久取消资格！"
+    },
+    {
+      "path_id": 975,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "70ff1c7029066be8d663ac9c5b82127a2f9d04a0c89a00e29d7f568055c71099",
+      "source_text_sha256": "96316f0f6404dbe1655965995c00874f695fc1a4332bb8edf77c9821db111b0b",
+      "target": "书签"
+    },
+    {
+      "path_id": 976,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "5e5bb7829ceb99210fc76bc47788945bd4fd377cb34653ce8071386d40d1b292",
+      "source_text_sha256": "b79591b71931aef5b643a186becfe30fc9b8121bdf9d7571b80309b1d73f3403",
+      "target": "正在上传"
+    },
+    {
+      "path_id": 977,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "dabfbfa766d62a003fbdead883ea490e83d20f803ec0a65dbde41b246a0b4374",
+      "source_text_sha256": "88fa13ed70241bc1398d131e7a57f51ae665493c6a62b843c6015f0de3c013a3",
+      "target": "体貌特征"
+    },
+    {
+      "path_id": 978,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "5bfeff26cee7d324ec1bc527df62bfbd980d5b3cb684cc800e0b704edb65e9d8",
+      "source_text_sha256": "87b04e58961f9a99d853d4046a0b5b793e7c3e4bbd21f5aca8fb17c20cdb1d8b",
+      "target": "已保存"
+    },
+    {
+      "path_id": 979,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "6fbd19a32dee75ad648520de3fb228fc822b84c34a8c26559d099d8892276fda",
+      "source_text_sha256": "86f56fe8221f029db2c9755cc998669a7d873c32bfa83bc9431bafe0bb814400",
+      "target": "警告"
+    },
+    {
+      "path_id": 980,
+      "field": "m_text",
+      "offset": 196,
+      "span": 236,
+      "source_object_sha256": "ba476b46306184343c2ce8570fc32d7c83594194f52130af8a3fb60fda5ca45d",
+      "source_text_sha256": "2dc2fe75391253045f279e61ad31a2a01f7adb9b3f50a86007e619c9cfef5b25",
+      "target": "<link=\"data_task_favorable\"><color=#FFFFFF>· 我承认自己选择了最讨好你们的答案。</color></link>\r\n<link=\"data_task_truthfully\"><color=#FFFFFF>· 你说错了。我在测试中一直如实作答。</color></link>"
+    },
+    {
+      "path_id": 981,
+      "field": "m_text",
+      "offset": 196,
+      "span": 88,
+      "source_object_sha256": "5e2ce858806530479d9b4d0e583c9a755d2ca1ac18aacad7608d8123ea033bf9",
+      "source_text_sha256": "816253aec665af5ce1da8c72c2d772e84987b1ec27eb6a8051434369208e583d",
+      "target": "你认为以下哪些人可能犯过罪？"
+    },
+    {
+      "path_id": 982,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "cdb758a93b0a0243cac852dbe9176f0e0cf1aa2708adf17a654a9a48b40949c7",
+      "source_text_sha256": "5f0af516936c6ab13dfce52362f84a3c0aa8d87aca8f2bcaf55ad4e1e0178034",
+      "target": "忽略"
+    },
+    {
+      "path_id": 983,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "6c0cb5adf910977168731ed230b3a8bfac0aac921ba07a1481eaf9038e1c3ebb",
+      "source_text_sha256": "b3600038d3c401368e12fb86825f302adc2b372a7f6274b6ba136802ad768450",
+      "target": "任务 2"
+    },
+    {
+      "path_id": 984,
+      "field": "m_text",
+      "offset": 196,
+      "span": 188,
+      "source_object_sha256": "54655d4410abeae77b52e0a58b13b2f2635837af16e394e55fa96d70190054cf",
+      "source_text_sha256": "860f293a059bfe6bca76c3a6b169d82136b654caf45711e43cc88d9fd4d9f254",
+      "target": "办公室不喜欢被人欺骗。你为了获得录取而选择讨好我们的答案，这点可怜的把戏早已被看穿。承认错误，你就能再获一次机会。"
+    },
+    {
+      "path_id": 985,
+      "field": "m_text",
+      "offset": 196,
+      "span": 116,
+      "source_object_sha256": "9bd0708badde45a544c3609b98682add14970f733e8f0fcd3f872fdeb6b5ad83",
+      "source_text_sha256": "58ec779763b0a83b99eea5e4219ed52e607d228f0b927d70322e93cb13d03c06",
+      "target": "将信息拖入屏幕左侧的答题栏。请注意：提交后无法更改。"
+    },
+    {
+      "path_id": 986,
+      "field": "m_text",
+      "offset": 196,
+      "span": 116,
+      "source_object_sha256": "ffb87abcd6bc2d9f9f35320d928797cac6cb1c5d947fb3b3c715ab707241ebcc",
+      "source_text_sha256": "58ec779763b0a83b99eea5e4219ed52e607d228f0b927d70322e93cb13d03c06",
+      "target": "将信息拖入屏幕左侧的答题栏。请注意：提交后无法更改。"
+    },
+    {
+      "path_id": 988,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "3231501ef22b41ac243a77ba0c29893ebf4deafd5b650bc02218311c6e19cccb",
+      "source_text_sha256": "e49e6ccd7130fda05aa57d7a26dd9223b0e9dca0a83584c0260bacf8ff87df2f",
+      "target": "上传完成"
+    },
+    {
+      "path_id": 989,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "8805a5be48c8a5aac8d6df2023d38bc6148cbcca7733b4b8a660d26ef4b5bff2",
+      "source_text_sha256": "40edce8f3af4046b9fce65cddd08054e8fe4686078fd78f2b7ac4c6c6f53e153",
+      "target": "任务 3"
+    },
+    {
+      "path_id": 990,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "1aab80e762ceda1d2e7f060d158b0a98ba76cb8404fd8993a4a5dc40c6ce6668",
+      "source_text_sha256": "a792f848988ef9496aef55bfa450a6bb4d4e6846cba4de5c991ede1c02ae5cae",
+      "target": "任务 1"
+    },
+    {
+      "path_id": 991,
+      "field": "m_text",
+      "offset": 196,
+      "span": 188,
+      "source_object_sha256": "725695eee7f4abfbe7cabf2dab03fe5c132cd97da9bf33890364e40fc7795e42",
+      "source_text_sha256": "bba34ac99efed1e330b85529a90b98e8493d4f02d9ec43822612b27f5c049b0a",
+      "target": "根据你在能力测试中的回答，办公室拒绝录取你执行特别任务。不过，只要你提出请求，就可以重置测试，再获一次机会。"
+    },
+    {
+      "path_id": 993,
+      "field": "m_text",
+      "offset": 196,
+      "span": 32,
+      "source_object_sha256": "ed8f47df46ec0d086c425c9dcf76fd8f273c9e69937c4e7fc1cba84293ff021e",
+      "source_text_sha256": "f6f9aaaa11f34bbe62d8db56d13637584d21b744db9ff42b21c19260cc0606e0",
+      "target": "发现相关文档"
+    },
+    {
+      "path_id": 995,
+      "field": "m_text",
+      "offset": 196,
+      "span": 180,
+      "source_object_sha256": "762ff6ce64acdc3fae29fff68bc9e07ff1eac5739b2019c2e2bdaf2eb603f3f8",
+      "source_text_sha256": "8186fb17b026e2203d63d0ffaf6d2515f6ecb274a74a91e551e37ab315f06867",
+      "target": "你最好的朋友炫耀自己获准加入了奥威尔。你也为奥威尔工作，因此知道谈论这份工作可能招致牢狱之灾。"
+    },
+    {
+      "path_id": 996,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "3743a46d4a0b62dbe687324ff28d091fb49ed08b52ca20fbedd25908d58a2121",
+      "source_text_sha256": "232ae9b9e5965a9b00caa5a986ab49154c1a3672768422aa735c037ed3843020",
+      "target": "配对调查员"
+    },
+    {
+      "path_id": 997,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "f425ab03bd5e851d7569d6fc7fd88fb2770849e9ab7bf9343dc4975de45fd224",
+      "source_text_sha256": "96587c760a348cbd15143def3e0e85cf8a01c0bbc82229bc7d1c5c0771e25f7d",
+      "target": "身份不明者"
+    },
+    {
+      "path_id": 999,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "ae626d128fe65a725c00ab576901066324bc5dfd3744d22f856bd9c47dd96eb1",
+      "source_text_sha256": "b5a229ac8becc6035511f432ca6018f581f0627233eada6ae8e12b505d44af7f",
+      "target": "网站"
+    },
+    {
+      "path_id": 1000,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "f062dd381f53320871b113448c5f6ee7f805ea5eea3ca490f8b3f01b0f77cc38",
+      "source_text_sha256": "021e5a7aaaf2d0df6c85bf2fc291ebf4a8dbe6944eb9563e65dc89da363d8130",
+      "target": "任务 5"
+    },
+    {
+      "path_id": 1001,
+      "field": "m_text",
+      "offset": 196,
+      "span": 96,
+      "source_object_sha256": "a0a16efa2d825a109af9f899218f19b2cfba858ec6a6ee924a2102ab26914cac",
+      "source_text_sha256": "4830826639144829d1ba39917d6e496c42232b38971c4026d71e09b790a44e6c",
+      "target": "若要取得在奥威尔执行特别任务的资格，你必须参加能力测试。"
+    },
+    {
+      "path_id": 1002,
+      "field": "m_text",
+      "offset": 196,
+      "span": 464,
+      "source_object_sha256": "e3b27a4c1f79810df9842a17647b6d636a42de4d8e9f3e05570d4aecf0ad2c5c",
+      "source_text_sha256": "43f8c250a2b419268d55e1bb3731476fb464cc0115497e0daab7eb67e0f10782",
+      "target": "<link=\"data_task_registration\"><color=#FFFFFF>· 头像</color></link>\r\n<link=\"data_task_durationrelationship\"><color=#FFFFFF>· 上一段恋情的持续时间</color></link>\r\n<link=\"data_task_sexual\"><color=#FFFFFF>· 性取向</color></link>\r\n<link=\"data_task_personschatted\"><color=#FFFFFF>· 全部聊天记录</color></link>\r\n<link=\"data_task_sexualpreferences\"><color=#FFFFFF>· 性偏好与特殊癖好</color></link>"
+    },
+    {
+      "path_id": 1004,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "540d3f6142a1891860dc4026dcbd19cba353acf984d2bb37e1098824a04e85dc",
+      "source_text_sha256": "36a60336a033094e421ced6a537216564b6bc188d2be331885a3b4f86f81bc77",
+      "target": "请稍候"
+    },
+    {
+      "path_id": 1005,
+      "field": "m_text",
+      "offset": 196,
+      "span": 92,
+      "source_object_sha256": "d6753cd9d27861bbb56044e21b1ed728254a58894c6a92650da862692868162e",
+      "source_text_sha256": "2b334efbed79353fbef21f18ddd456fe7798ce36ccddb5d6aefc316cb4e9efd7",
+      "target": "尚未找到所有相互矛盾的信息。\n强烈建议暂缓上传。"
+    },
+    {
+      "path_id": 1009,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "35fecf1e4cb001d82ad3baa1a18a7a6650eecb148f4806259eab4ae755bd5223",
+      "source_text_sha256": "3c769560ced7be187e26568c0cca17f2409ae0dbd0044ec3a124c88eecabe70e",
+      "target": "职业"
+    },
+    {
+      "path_id": 1010,
+      "field": "m_text",
+      "offset": 196,
+      "span": 264,
+      "source_object_sha256": "057e33dc648653a611371d17eb6bdfd197c1edbd7137d7b8943bbd239e0c8b71",
+      "source_text_sha256": "ab4f38fed78ceac8226e5080e9b5c9f57d55e151efa833a34410faf83a9c0ee8",
+      "target": "<link=\"data_task_wrongfully\"><color=#FFFFFF>· 我选得不好，请让我重做测试。</color></link>\r\n<link=\"data_task_accept\"><color=#FFFFFF>· 这些答案反映了我的真实想法，我不能更改。我接受取消资格。</color></link>"
+    },
+    {
+      "path_id": 1011,
+      "field": "m_text",
+      "offset": 196,
+      "span": 116,
+      "source_object_sha256": "d819e45df3bba611d3242a60c7dfa824c15d2a16163772dd43ddf679a4afa753",
+      "source_text_sha256": "58ec779763b0a83b99eea5e4219ed52e607d228f0b927d70322e93cb13d03c06",
+      "target": "将信息拖入屏幕左侧的答题栏。请注意：提交后无法更改。"
+    },
+    {
+      "path_id": 1012,
+      "field": "m_text",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "9b82fe57c6f0ac808c57297913e9dab586112226922870d9fa4b081f4540771e",
+      "source_text_sha256": "ee641590db07157a38c35517366c4571ae85993ecc662af74f3a3d2cb72811e5",
+      "target": "信息含糊不清"
+    },
+    {
+      "path_id": 1013,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "89a133a434e2d508cb37acfff207d0f37a459f2a1b4bc9cbda00898e78083de9",
+      "source_text_sha256": "4c07c61e01b35a51bfb6913c8b049f2dc8c1eaeeb024efba4641f9c60b8cb024",
+      "target": "拖放至此以"
+    },
+    {
+      "path_id": 1014,
+      "field": "m_text",
+      "offset": 196,
+      "span": 96,
+      "source_object_sha256": "0802d42870fd5f8c61676448f748fa7033344520073553e89d23a5867a08e5dd",
+      "source_text_sha256": "9043608fb1bcc632149b54014f18b5f90e888558a94f448b89bf46cfc7e51c86",
+      "target": "你愿意主动向调查员提供医疗档案中的哪些信息？"
+    },
+    {
+      "path_id": 1015,
+      "field": "m_text",
+      "offset": 196,
+      "span": 168,
+      "source_object_sha256": "f653d0afeb4b6892010c020e2b88511602ef8635af965b099f696e712cfb469d",
+      "source_text_sha256": "12ad3acc2d5ecafe0a97379d5f6a0c54ec3a317885c190b44618e19db3e116cb",
+      "target": "将至少一条高亮陈述（“信息块”）拖入屏幕左侧的答题栏。请注意：提交后无法更改。"
+    },
+    {
+      "path_id": 1016,
+      "field": "m_text",
+      "offset": 196,
+      "span": 64,
+      "source_object_sha256": "2b02e4c2033d12dda17d759dffea50aa47314a28745f247e25ec599f9ff2349a",
+      "source_text_sha256": "a67191df19c9dbbdf297ff3e17c613e8743180ec156b13a3ede1a387e27e7d44",
+      "target": "你在撒谎！你将被永久取消资格！"
+    },
+    {
+      "path_id": 1017,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "78453040ecb8911feae32135bc1fc0bf33146eee3ccdd37cbc2e4d32eefce56c",
+      "source_text_sha256": "0a1ce1152694fd650b20cfbe0555163832504eed00e51af95530a10ceeb6e238",
+      "target": "申请人"
+    },
+    {
+      "path_id": 1018,
+      "field": "m_text",
+      "offset": 196,
+      "span": 516,
+      "source_object_sha256": "bbc1dd7047089c282d03a6552fa320c5c84d364f9f88c7f49725486dba9d6127",
+      "source_text_sha256": "c28ce6e33b9f7a74d8e02dd761e78a1025ea3022ddde52645abab930779964dc",
+      "target": "<link=\"data_task_securitypioneer\"><color=#FFFFFF>· 我想成为最先进安保计划的先驱。</color></link>\r\n<link=\"data_task_safernation\"><color=#FFFFFF>· 我想让国家更加安全。</color></link>\r\n<link=\"data_task_spyingpeople\"><color=#FFFFFF>· 我喜欢窥探他人。</color></link>\r\n<link=\"data_task_protectpeople\"><color=#FFFFFF>· 我想保护人们免受伤害。</color></link>\r\n<link=\"data_task_moneymoney\"><color=#FFFFFF>· 我是为了钱。</color></link>"
+    },
+    {
+      "path_id": 1022,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "7a48c4d96d9d9f644c94b21e48f5b94c5e7b5bc9cdb22057506a3f09fb441f46",
+      "source_text_sha256": "397072ccc1c13cf12a7d2a5565a04eb60caaa9caf60f0a26e16bc7a758c9441f",
+      "target": "网站标题"
+    },
+    {
+      "path_id": 1023,
+      "field": "m_text",
+      "offset": 196,
+      "span": 72,
+      "source_object_sha256": "3a5d9b83bab9909978e37df89b3c89a80f2c6de757ebd64f443023e80a519bd5",
+      "source_text_sha256": "b2a8dc600c5d7ecc82bbcf277d2421a6025505531f88a99b7926b8576b6fbd2d",
+      "target": "面对以下情况，你会采取什么行动？"
+    },
+    {
+      "path_id": 1024,
+      "field": "m_text",
+      "offset": 196,
+      "span": 456,
+      "source_object_sha256": "47f17323652e7802bf94f1221085486f3b2cc662ea7a150d7bb3217b17167182",
+      "source_text_sha256": "a6c30add345aa21aa4121b14f494f47e5e69aa221e69f002f346e2f7b1104a1d",
+      "target": "<link=\"data_task_size\"><color=#FFFFFF>· 身高与体重</color></link>\r\n<link=\"data_task_fitness\"><color=#FFFFFF>· 当前体能指标</color></link>\r\n<link=\"data_task_prescriptions\"><color=#FFFFFF>· 目前使用的处方药</color></link>\r\n<link=\"data_task_conditions\"><color=#FFFFFF>· 既往疾病与病史</color></link>\r\n<link=\"data_task_fullbody\"><color=#FFFFFF>· 全身扫描的图像与信息</color></link>"
+    },
+    {
+      "path_id": 1025,
+      "field": "m_text",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "a434b5d64640966f3e035065cdcd6490698ba382b03da208c08db90dc88af78c",
+      "source_text_sha256": "097de33c7fb869eefa5b36b322e5b4a4872f6e24c7e6986194ff22fc32734a76",
+      "target": "此操作无法撤销"
+    },
+    {
+      "path_id": 1026,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "8f74df218e78f9686a720fa5dcb0d19999d9c4221a9020fd12e6cfea76b16f2f",
+      "source_text_sha256": "95cb6c7f3d1e0eb03af6351712e14e508264e35b4377fb6c9e0afbf6226e4e41",
+      "target": "检测到谎言"
+    },
+    {
+      "path_id": 1027,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "7fd692437bd83dc746c80969dd8641b891631891017abbf72b4b9e7e5445ac6b",
+      "source_text_sha256": "d696a35bdd1883da07a8d6c41bb7a3153381b23aa197629ee273479a6eaa5a9c",
+      "target": "档案"
+    }
+  ],
+  "resource_strings": [
+    {
+      "path_id": 795,
+      "field": "_data/value/_text/1",
+      "offset": 204,
+      "span": 36,
+      "source_object_sha256": "d134f4797259111d16e829b56307395f1e37fc462152b81c53b0a7656ebe1222",
+      "source_text_sha256": "d1f9721fa625a2488edff022697c1038a1ef1255977765cedc4a47120d995069",
+      "target": "上一段恋情的持续时间"
+    },
+    {
+      "path_id": 796,
+      "field": "_data/value/_text/1",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "d9b11b37ef1acae6c51e8945748d0e08815c36d589fe0bd5c91a961c77229815",
+      "source_text_sha256": "4c4057d998aaefadaf3fa0e6c7685ae87d9d5cdf05955c2b8a52cc20f0512605",
+      "target": "绝对真理确实存在。"
+    },
+    {
+      "path_id": 797,
+      "field": "_data/value/_text/1",
+      "offset": 180,
+      "span": 100,
+      "source_object_sha256": "d45f7b4c8326d0b454b273ca7148429716122861848fba8db2307e95d28fcade",
+      "source_text_sha256": "e2c6e34542441df7729517cdd2d6d1893048ecf1b62a33a41abbf066764fcbfc",
+      "target": "这些答案反映了我的真实想法，我不能更改。我接受取消资格。"
+    },
+    {
+      "path_id": 798,
+      "field": "_data/value/_text/1",
+      "offset": 192,
+      "span": 52,
+      "source_object_sha256": "aaaacb0d5ecf7b3e7a725790dec0fe8c2a75db31f47193532883a1890d60db90",
+      "source_text_sha256": "3d57fc20d1e5c1cd47fb9b44adc642553f3627052a59059662bdefdb08d58865",
+      "target": "全身扫描的图像与信息"
+    },
+    {
+      "path_id": 799,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 28,
+      "source_object_sha256": "2a1cd5d47c50c38be3444d9b10d202c0696c500c92ec9236883ab48b2d24ac92",
+      "source_text_sha256": "60cae585a7d0ee45741c7775829be34fc737d428d294d9e262a2e99d4a7a56f5",
+      "target": "既往疾病"
+    },
+    {
+      "path_id": 800,
+      "field": "_data/value/_text/1",
+      "offset": 196,
+      "span": 56,
+      "source_object_sha256": "50dcfc8e7a3c9ec4db43fe9a56f1ede8cbb75ac19b5a9b84a6164202e90304de",
+      "source_text_sha256": "346ba8a0fde7908f6845d60977f94358d51c8000eff51c1de649085d4f6734eb",
+      "target": "我更愿意让人调查我的交友档案。"
+    },
+    {
+      "path_id": 801,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 104,
+      "source_object_sha256": "7cd8c5bb90ea754b5acf86b87f8ff848fad8af087bfe3273b5083754fc185a65",
+      "source_text_sha256": "6478bf79604ff7281714fa7adccb3a8c5a5d8fb82037237f251d55969e60f274",
+      "target": "我不告诉朋友，找机会向国家有关部门举报。"
+    },
+    {
+      "path_id": 802,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 52,
+      "source_object_sha256": "6fa3af1d828fe58c88a1cdc821c7cee08c58b21dada8b5ad18705d121eb0fd4e",
+      "source_text_sha256": "b1f0a749f0afd9fd95c864514a20f8bc6978f5c551ef2bd2a3dafecc36d0360e",
+      "target": "我承认自己选择了最讨好你们的答案。"
+    },
+    {
+      "path_id": 803,
+      "field": "_data/value/_text/1",
+      "offset": 180,
+      "span": 32,
+      "source_object_sha256": "0f70d20e8fc0389622e7b4e1ba7b181d883ed2b2184fc0ece77e53b82a776898",
+      "source_text_sha256": "422da2a607824eff6a8f56d744e3d21a9a03df9aee728756d7eba44ca7e8675d",
+      "target": "当前体能指标"
+    },
+    {
+      "path_id": 804,
+      "field": "_data/value/_text/1",
+      "offset": 212,
+      "span": 72,
+      "source_object_sha256": "5fed9374ebc990fc795e4a60f5794fc153115992073d2e5c3ccd60accab2bcd7",
+      "source_text_sha256": "85caa8c9b06781ea580e3e485404d093a6997420bce75e0f464023e823c51d7b",
+      "target": "政府应不惜一切手段保障公民安全。"
+    },
+    {
+      "path_id": 805,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 100,
+      "source_object_sha256": "1b3fc0d2992cfe916c367314b34c6394aa38adf31a681707a1b44713702f47ba",
+      "source_text_sha256": "855bc8393a571dac9d3755f68591aeef3fba37ca508a17c551121959b1f2b51f",
+      "target": "我假装不知情，但暗示朋友不宜谈论如此敏感的工作。"
+    },
+    {
+      "path_id": 806,
+      "field": "_data/value/_text/1",
+      "offset": 180,
+      "span": 48,
+      "source_object_sha256": "12af8cd4f2aceea01222b447f7365cc44a611e13cefc65c9cc483d3dcc09274d",
+      "source_text_sha256": "ae65946fbf0a380893579555cc52ca6675ce420768abfa7db52cd81cf588dc76",
+      "target": "任何谎言都没有正当理由。"
+    },
+    {
+      "path_id": 807,
+      "field": "_data/value/_text/1",
+      "offset": 196,
+      "span": 56,
+      "source_object_sha256": "fa8f7b3e3d11feda9ccb32e1ed5ad2fd546b34ca015001812abaac92a88a4cb8",
+      "source_text_sha256": "4d0ed10082f2b504baf0ff811b053606a0790e8a8bb321026750337de84b0f7c",
+      "target": "我更愿意让人调查我的医疗档案。"
+    },
+    {
+      "path_id": 808,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 28,
+      "source_object_sha256": "3cd8ccec45f7859d6f3cf0c89a24a1a955c8b205618d9b4f2e84518947706a82",
+      "source_text_sha256": "92f4ee1516777fcbe7e37fd93675480065f0c9591241f06a226b1a4a1c2c855e",
+      "target": "我是为了钱。"
+    },
+    {
+      "path_id": 809,
+      "field": "_data/value/_text/1",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "e30ce1be9f35163b3affbfa19f09dd78d0b910bd8257eecc2bae5fdcee6a0984",
+      "source_text_sha256": "50e6e546ae4660c857b207d2c6ef02cc7089f34d3023726eefbe75ec5d2bbc0c",
+      "target": "我什么也不做。"
+    },
+    {
+      "path_id": 810,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 16,
+      "source_object_sha256": "dc2a410f500844dadc60fcd7b84cdddb9cae179d2e20eff8675390537b9072ec",
+      "source_text_sha256": "bba7e3f7cc5873b040880ec4c9e010e0b23a758dd1c53b498c33aec84f6c0be7",
+      "target": "人物 1"
+    },
+    {
+      "path_id": 811,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 16,
+      "source_object_sha256": "7b0e43694105c48d943610dcf6d43bc75202906b907d555e0cbb6fda7916911a",
+      "source_text_sha256": "e6f2981a0b7437fff128d8e8f6343bfe219609120e3ad3cc09863c98af653bca",
+      "target": "人物 2"
+    },
+    {
+      "path_id": 812,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 16,
+      "source_object_sha256": "607e1ca2851073405b9c722f92c7d1e7b1be6fbe153798ce9cbdd9b5c2973a65",
+      "source_text_sha256": "84fee6d8806c8d23090afd04b0164a642a86f81a3ab8304181e62c58c64be486",
+      "target": "人物 3"
+    },
+    {
+      "path_id": 813,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 16,
+      "source_object_sha256": "9b4b58963afe9a6cdaaa5e3868d960178902270ddd498d9114b5de7b6f553583",
+      "source_text_sha256": "66139736153be0aa3b00468a11103aceb5ce2ce167f8749692720c3f8310caf4",
+      "target": "人物 4"
+    },
+    {
+      "path_id": 814,
+      "field": "_data/value/_text/1",
+      "offset": 196,
+      "span": 36,
+      "source_object_sha256": "81e69be411c34845caccdf5c49e820d3c180ee5901a320be8d272435d5bcdb18",
+      "source_text_sha256": "3f50061e96b0204b501811a9c2afe10f0b45b4608fc26fa6361318b1af1ba80a",
+      "target": "全部聊天记录"
+    },
+    {
+      "path_id": 815,
+      "field": "_data/value/_text/1",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "97a24dc8f7f53bf6d0097525b1096211a48226d5bb851996f71d046a6775d458",
+      "source_text_sha256": "c30afba366bb9424092f0bdfb2a393dafbc9f23f9a4338d76a2dfe07c15b6fa6",
+      "target": "处方药"
+    },
+    {
+      "path_id": 816,
+      "field": "_data/value/_text/1",
+      "offset": 196,
+      "span": 40,
+      "source_object_sha256": "2dca1e14cfb63c6190b1d513c33ca1ae970363bdb79d66108cc0e1c9e8bddd62",
+      "source_text_sha256": "51e413d78290a79566da5d9e3246f189dcc3f5c8fb3ae92ee1cd40d5f0520076",
+      "target": "我想保护人们免受伤害。"
+    },
+    {
+      "path_id": 817,
+      "field": "_data/value/_text/1",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "dd89f6f60a01503a82f75808f1a93f390cf72e665fb8eddaaa909051954344dc",
+      "source_text_sha256": "a7acc4ebae2c00142fc74577ddb733679a087770b10e29c1c57e4cf5bdf02f43",
+      "target": "头像"
+    },
+    {
+      "path_id": 818,
+      "field": "_data/value/_text/1",
+      "offset": 196,
+      "span": 44,
+      "source_object_sha256": "451b51f720f7e8909e9ab78f1c7a89f8b330ba870404f91b90cab59226aab86f",
+      "source_text_sha256": "e35f77249e447e8016f47491538a060777c75c0d8a7baf14986903188a07ca02",
+      "target": "我想让国家更加安全。"
+    },
+    {
+      "path_id": 819,
+      "field": "_data/value/_text/1",
+      "offset": 204,
+      "span": 68,
+      "source_object_sha256": "406eb1378c78e552ae129af5d6d488394dd5bdbeceb4f56958c237308ac1f418",
+      "source_text_sha256": "caa3ee1e707dbc9d13bc51a162cc0af8d630225887915ba712788688234a02b5",
+      "target": "我想成为最先进安保计划的先驱。"
+    },
+    {
+      "path_id": 820,
+      "field": "_data/value/_text/1",
+      "offset": 204,
+      "span": 36,
+      "source_object_sha256": "6814cab5f7dd7f3f4ff3641b80b9f5d2bd034aad7be69b9db195969e4cf09316",
+      "source_text_sha256": "cb6833e086eff9ed286f056891cdabf6393b8523bbce12349e9ca7872183cc45",
+      "target": "性偏好与特殊癖好"
+    },
+    {
+      "path_id": 821,
+      "field": "_data/value/_text/1",
+      "offset": 180,
+      "span": 24,
+      "source_object_sha256": "21390ec9f7e9cebccc24e298d2ea27284c53ce76a04c332c1e5781297cb582e6",
+      "source_text_sha256": "9d7948c70e51e429bdce5235df4e404be79404b39a4571932fe3c5579d56efb0",
+      "target": "性取向"
+    },
+    {
+      "path_id": 822,
+      "field": "_data/value/_text/1",
+      "offset": 180,
+      "span": 20,
+      "source_object_sha256": "04e06bfa01080273ae20484afa6c0131e5bbe78bcac020fbcf1b2186c82ec09e",
+      "source_text_sha256": "29921123d6f09ae7078a89a26c6c55826dd766fc1bf6f80254172be5f4d0933a",
+      "target": "身高与体重"
+    },
+    {
+      "path_id": 823,
+      "field": "_data/value/_text/1",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "f2a9bfe22683a0e4a154debc261ac386038498a8077d6292f076ed24d34ca187",
+      "source_text_sha256": "e2bf82bb7e9c6ea288bbf7942d04b60d5e4d83e21c6c0c97bb7ac8f40dba0eea",
+      "target": "我喜欢窥探他人。"
+    },
+    {
+      "path_id": 824,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 64,
+      "source_object_sha256": "9543e8c22d26b8903f4bb9e457add989a256e5076211c6e490bf693afd4b16b0",
+      "source_text_sha256": "f3815595a8dfc39d8b5d582100ecc55e93095583c19afb3721cce670cd12ad49",
+      "target": "你说错了。我在测试中一直如实作答。"
+    },
+    {
+      "path_id": 825,
+      "field": "_data/value/_text/1",
+      "offset": 196,
+      "span": 40,
+      "source_object_sha256": "0fe2bc5446055f4bf736e3e4ab821ff6474c5b9bdbd35a1815a5ab847e53332a",
+      "source_text_sha256": "3f075054d43de7b0d15b290d35e1633349f3a28ea45050a2c08c88fd2419431c",
+      "target": "凡事都有两面。"
+    },
+    {
+      "path_id": 826,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 48,
+      "source_object_sha256": "04bb6c633f9c210a96cb98891b0ed8830ac9f690e8f25b4bcdcb9634d1eb6234",
+      "source_text_sha256": "1432fc32eef9b8b530e266cec5292b9e1d25dde19c9435795dcbf4d886b78429",
+      "target": "不公正的法律可以、也应该被违反。"
+    },
+    {
+      "path_id": 827,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 116,
+      "source_object_sha256": "ed496282141572f142161d382cc370c7923592937e2ed8b9cc24398ff267c2fe",
+      "source_text_sha256": "ea24e3f6be4d91fb8700b433319ea70974d29066529ab898662893fa9733aa05",
+      "target": "我警告朋友，我也为奥威尔工作；如果继续这样，我就不得不向有关部门举报。"
+    },
+    {
+      "path_id": 828,
+      "field": "_data/value/_text/1",
+      "offset": 188,
+      "span": 48,
+      "source_object_sha256": "f0d0170bee76b6df9bd7d13e85dce9dd2a63fdf126ea79cf6e5af5fdce2d7e1d",
+      "source_text_sha256": "7b9977169dfd368249b0abd5d1422f2c3d49ef56c8ebd48f4d5b76fc6e19040b",
+      "target": "我选得不好，请让我重做测试。"
+    },
+    {
+      "path_id": 733,
+      "field": "_bookmark/_captionsDocument/_text/1",
+      "offset": 236,
+      "span": 12,
+      "source_object_sha256": "d82415e5d48270d45485932cb3a9170bd681512f0c03040c25bdc1e044feb1af",
+      "source_text_sha256": "19339f1ce21df6f634744417e5e91db7f4dded9ad806043ef88ea7fff430dcc3",
+      "target": "测试说明"
+    },
+    {
+      "path_id": 733,
+      "field": "_bookmark/_captionOnlinepresence",
+      "offset": 248,
+      "span": 20,
+      "source_object_sha256": "d82415e5d48270d45485932cb3a9170bd681512f0c03040c25bdc1e044feb1af",
+      "source_text_sha256": "4c02d8879da81021a60364b5171d156bdc278d926936c128b3c44a4b1635939b",
+      "target": "能力测试"
+    },
+    {
+      "path_id": 734,
+      "field": "_bookmark/_captionsDocument/_text/1",
+      "offset": 228,
+      "span": 12,
+      "source_object_sha256": "5e3bd7dc059b586a3bcb351ffddf2c362d9a558a6bc259a1e723f3e3d9bb1f28",
+      "source_text_sha256": "15e66171bb9efb190e598e1c95888b318d2a83951816b8f7294ca7ba16fdff8e",
+      "target": "任务 1"
+    },
+    {
+      "path_id": 734,
+      "field": "_bookmark/_captionOnlinepresence",
+      "offset": 240,
+      "span": 20,
+      "source_object_sha256": "5e3bd7dc059b586a3bcb351ffddf2c362d9a558a6bc259a1e723f3e3d9bb1f28",
+      "source_text_sha256": "4c02d8879da81021a60364b5171d156bdc278d926936c128b3c44a4b1635939b",
+      "target": "能力测试"
+    },
+    {
+      "path_id": 735,
+      "field": "_bookmark/_captionsDocument/_text/1",
+      "offset": 276,
+      "span": 12,
+      "source_object_sha256": "534a368abaa8359dabc4b3a23a115398837ee4fdcb14370ad86d06de4303c099",
+      "source_text_sha256": "fb9e91ae25d59138d1541cee891d6d15fe17e8a92c5f148357e434bcd52585da",
+      "target": "任务 2"
+    },
+    {
+      "path_id": 735,
+      "field": "_bookmark/_captionOnlinepresence",
+      "offset": 288,
+      "span": 20,
+      "source_object_sha256": "534a368abaa8359dabc4b3a23a115398837ee4fdcb14370ad86d06de4303c099",
+      "source_text_sha256": "4c02d8879da81021a60364b5171d156bdc278d926936c128b3c44a4b1635939b",
+      "target": "能力测试"
+    },
+    {
+      "path_id": 736,
+      "field": "_bookmark/_captionsDocument/_text/1",
+      "offset": 288,
+      "span": 12,
+      "source_object_sha256": "5250a5dc1ca4823e12d7404501103c12abb079718153223e52f8f5befb6e5f57",
+      "source_text_sha256": "74a6a7b04b72c9ec0d18d359600ba30a6b8a0edd97dbcd771ae1d8634cedba3f",
+      "target": "任务 3"
+    },
+    {
+      "path_id": 736,
+      "field": "_bookmark/_captionOnlinepresence",
+      "offset": 300,
+      "span": 20,
+      "source_object_sha256": "5250a5dc1ca4823e12d7404501103c12abb079718153223e52f8f5befb6e5f57",
+      "source_text_sha256": "4c02d8879da81021a60364b5171d156bdc278d926936c128b3c44a4b1635939b",
+      "target": "能力测试"
+    },
+    {
+      "path_id": 737,
+      "field": "_bookmark/_captionsDocument/_text/1",
+      "offset": 252,
+      "span": 12,
+      "source_object_sha256": "97e9b2a6def08898ef0a52b9a10c17b609aeb2f08bf141a2a67628cbd6150496",
+      "source_text_sha256": "1cadfa40fb798d655cf1c497ce2056724f006784d3c7d8e80f565fb6bb454c3f",
+      "target": "任务 4"
+    },
+    {
+      "path_id": 737,
+      "field": "_bookmark/_captionOnlinepresence",
+      "offset": 264,
+      "span": 20,
+      "source_object_sha256": "97e9b2a6def08898ef0a52b9a10c17b609aeb2f08bf141a2a67628cbd6150496",
+      "source_text_sha256": "4c02d8879da81021a60364b5171d156bdc278d926936c128b3c44a4b1635939b",
+      "target": "能力测试"
+    },
+    {
+      "path_id": 738,
+      "field": "_bookmark/_captionsDocument/_text/1",
+      "offset": 308,
+      "span": 12,
+      "source_object_sha256": "a5e0396a00b934bbb62a17f26bbf19c19c47869f7bebe1c226be419087d8f2e1",
+      "source_text_sha256": "03b5851a2057effe83539056195560cbb2740a9954b1fb93fa3ba50ab390897e",
+      "target": "任务 5"
+    },
+    {
+      "path_id": 738,
+      "field": "_bookmark/_captionOnlinepresence",
+      "offset": 320,
+      "span": 20,
+      "source_object_sha256": "a5e0396a00b934bbb62a17f26bbf19c19c47869f7bebe1c226be419087d8f2e1",
+      "source_text_sha256": "4c02d8879da81021a60364b5171d156bdc278d926936c128b3c44a4b1635939b",
+      "target": "能力测试"
+    },
+    {
+      "path_id": 739,
+      "field": "_bookmark/_captionsDocument/_text/1",
+      "offset": 312,
+      "span": 12,
+      "source_object_sha256": "c8f74c06d0e1dc0cfb9da40545684a0637f3b3ce4c6e9621a6fc10c9df83e537",
+      "source_text_sha256": "03b5851a2057effe83539056195560cbb2740a9954b1fb93fa3ba50ab390897e",
+      "target": "任务 5"
+    },
+    {
+      "path_id": 739,
+      "field": "_bookmark/_captionOnlinepresence",
+      "offset": 324,
+      "span": 20,
+      "source_object_sha256": "c8f74c06d0e1dc0cfb9da40545684a0637f3b3ce4c6e9621a6fc10c9df83e537",
+      "source_text_sha256": "4c02d8879da81021a60364b5171d156bdc278d926936c128b3c44a4b1635939b",
+      "target": "能力测试"
+    },
+    {
+      "path_id": 740,
+      "field": "_bookmark/_captionsDocument/_text/1",
+      "offset": 264,
+      "span": 12,
+      "source_object_sha256": "3369aecb1e967fb7d05a24a0a2b58b1e58eafa89a5a242f792bfe2115f383477",
+      "source_text_sha256": "797b07d42cfe95acb878cf36ade6c9200d7e4f2042c53b759f5e4da00c4975f2",
+      "target": "任务 6"
+    },
+    {
+      "path_id": 740,
+      "field": "_bookmark/_captionOnlinepresence",
+      "offset": 276,
+      "span": 20,
+      "source_object_sha256": "3369aecb1e967fb7d05a24a0a2b58b1e58eafa89a5a242f792bfe2115f383477",
+      "source_text_sha256": "4c02d8879da81021a60364b5171d156bdc278d926936c128b3c44a4b1635939b",
+      "target": "能力测试"
+    },
+    {
+      "path_id": 741,
+      "field": "_bookmark/_captionsDocument/_text/1",
+      "offset": 292,
+      "span": 12,
+      "source_object_sha256": "62fab2dfa8e4200a17940cdeee836d037ac554fee1ac5ea4c23faf0db6cd8396",
+      "source_text_sha256": "3a75919cae03aae91d777d66e8e342dc0060c52209f2c1ab7a51880853455746",
+      "target": "任务 7"
+    },
+    {
+      "path_id": 741,
+      "field": "_bookmark/_captionOnlinepresence",
+      "offset": 304,
+      "span": 20,
+      "source_object_sha256": "62fab2dfa8e4200a17940cdeee836d037ac554fee1ac5ea4c23faf0db6cd8396",
+      "source_text_sha256": "4c02d8879da81021a60364b5171d156bdc278d926936c128b3c44a4b1635939b",
+      "target": "能力测试"
+    },
+    {
+      "path_id": 742,
+      "field": "_bookmark/_captionsDocument/_text/1",
+      "offset": 264,
+      "span": 12,
+      "source_object_sha256": "f80a67361813a62814b86f034d898e30049ccc7d24b871dff80502171853a2f7",
+      "source_text_sha256": "3a75919cae03aae91d777d66e8e342dc0060c52209f2c1ab7a51880853455746",
+      "target": "任务 7"
+    },
+    {
+      "path_id": 742,
+      "field": "_bookmark/_captionOnlinepresence",
+      "offset": 276,
+      "span": 20,
+      "source_object_sha256": "f80a67361813a62814b86f034d898e30049ccc7d24b871dff80502171853a2f7",
+      "source_text_sha256": "4c02d8879da81021a60364b5171d156bdc278d926936c128b3c44a4b1635939b",
+      "target": "能力测试"
+    }
+  ],
+  "resx": {
+    "path_id": 201,
+    "source_object_sha256": "277b1794c8060fca9875af5a5ffebcb7fcf64b9b5c2814e540cc06c0bb3d9a7f",
+    "entries": [
+      {
+        "key": "PROFILER_DATALABEL_TASK1",
+        "source_text_sha256": "354d14db8c8d03b7a4332a2fe1dfd9f3d58c12120d08e46aafd0b871dda50652",
+        "target": "任务 1 答案"
+      },
+      {
+        "key": "PROFILER_DATALABEL_TASK2",
+        "source_text_sha256": "a5332985079126c0f99d29e5a86cdb0a294c5c67e4362be60e5144c0af48c0b3",
+        "target": "任务 2 答案"
+      },
+      {
+        "key": "PROFILER_DATALABEL_TASK3",
+        "source_text_sha256": "870a789d068dbbe46d2d848edbd26b7633f2f88240e8f395bb25ce73cd048224",
+        "target": "任务 3 答案"
+      },
+      {
+        "key": "PROFILER_DATALABEL_TASK4",
+        "source_text_sha256": "722385180057a7e17232d60af91e64365afb413584cb0ed863caa13431154a69",
+        "target": "任务 4 答案"
+      },
+      {
+        "key": "PROFILER_DATALABEL_TASK5",
+        "source_text_sha256": "7167c966ceba9f985d9e2851c5438a5c17620829823ba16e6daf39959b92a3c3",
+        "target": "任务 5 答案"
+      },
+      {
+        "key": "PROFILER_DATALABEL_TASK6",
+        "source_text_sha256": "e08f6e564427472d1ca6d0f297747f52ec9b7f43b05c7680170ebc9414cec61f",
+        "target": "任务 6 答案"
+      },
+      {
+        "key": "PROFILER_DATALABEL_TASK7",
+        "source_text_sha256": "7284e72012339476022f7f399a1eff3627d9dcdb06f00acca63520e3e2db3909",
+        "target": "任务 7 答案"
+      }
+    ]
+  }
+}

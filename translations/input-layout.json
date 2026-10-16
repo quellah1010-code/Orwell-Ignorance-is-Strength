@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "scope": "Name input label, frame alignment, text viewport and placeholder; requires translated level1.",
+  "objects": [
+    {
+      "path_id": 1041,
+      "source_object_sha256": "246b4fbedd533d2b542006b2175657b6da67a62ec92318301a18650a9b1dfd3f",
+      "fields": {
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": -68.0,
+          "y": -16.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_LocalPosition": {
+          "x": 560.0,
+          "y": 40.0,
+          "z": 0.0
+        }
+      },
+      "edits": [
+        {
+          "offset": 30,
+          "before_hex": "0000",
+          "after_hex": "0c44"
+        },
+        {
+          "offset": 34,
+          "before_hex": "0000",
+          "after_hex": "2042"
+        },
+        {
+          "offset": 74,
+          "before_hex": "803f",
+          "after_hex": "0000"
+        },
+        {
+          "offset": 78,
+          "before_hex": "0000",
+          "after_hex": "803f"
+        },
+        {
+          "offset": 90,
+          "before_hex": "a0c2",
+          "after_hex": "0000"
+        },
+        {
+          "offset": 93,
+          "before_hex": "c08744",
+          "after_hex": "0088c2"
+        },
+        {
+          "offset": 98,
+          "before_hex": "9842",
+          "after_hex": "80c1"
+        },
+        {
+          "offset": 103,
+          "before_hex": "00",
+          "after_hex": "3f"
+        },
+        {
+          "offset": 107,
+          "before_hex": "00",
+          "after_hex": "3f"
+        }
+      ]
+    },
+    {
+      "path_id": 1146,
+      "source_object_sha256": "6709ef6b43cf412a9b6ff836e1997c65965d58c8422750ec3aafc44a08c4c0cc",
+      "fields": {
+        "m_AnchorMin": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_AnchorMax": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "m_AnchoredPosition": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "m_SizeDelta": {
+          "x": -68.0,
+          "y": -16.0
+        },
+        "m_Pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "m_LocalPosition": {
+          "x": 560.0,
+          "y": 40.0,
+          "z": 0.0
+        }
+      },
+      "edits": [
+        {
+          "offset": 28,
+          "before_hex": "40",
+          "after_hex": "00"
+        },
+        {
+          "offset": 30,
+          "before_hex": "084240",
+          "after_hex": "0c4400"
+        },
+        {
+          "offset": 34,
+          "before_hex": "6c",
+          "after_hex": "20"
+        },
+        {
+          "offset": 74,
+          "before_hex": "803f",
+          "after_hex": "0000"
+        },
+        {
+          "offset": 78,
+          "before_hex": "0000",
+          "after_hex": "803f"
+        },
+        {
+          "offset": 84,
+          "before_hex": "40",
+          "after_hex": "00"
+        },
+        {
+          "offset": 86,
+          "before_hex": "084280ffa7c1fbc7cf43",
+          "after_hex": "000000000000000088c2"
+        },
+        {
+          "offset": 98,
+          "before_hex": "0c42",
+          "after_hex": "80c1"
+        },
+        {
+          "offset": 103,
+          "before_hex": "00",
+          "after_hex": "3f"
+        },
+        {
+          "offset": 106,
+          "before_hex": "80",
+          "after_hex": "00"
+        }
+      ]
+    },
+    {
+      "path_id": 1293,
+      "source_object_sha256": "1291289a72dd4833589d2ca7c400235c4c5632c7b79599aa1b520a13bb2bea8d",
+      "fields": {
+        "m_fontSize": 40.0,
+        "m_fontSizeBase": 40.0,
+        "m_enableAutoSizing": 0,
+        "m_textAlignment": 513,
+        "m_isAlignmentEnumConverted": 1,
+        "m_enableWordWrapping": 0
+      },
+      "edits": [
+        {
+          "offset": 382,
+          "before_hex": "30",
+          "after_hex": "20"
+        },
+        {
+          "offset": 386,
+          "before_hex": "30",
+          "after_hex": "20"
+        },
+        {
+          "offset": 408,
+          "before_hex": "0400",
+          "after_hex": "0102"
+        },
+        {
+          "offset": 412,
+          "before_hex": "00",
+          "after_hex": "01"
+        }
+      ]
+    },
+    {
+      "path_id": 1330,
+      "source_object_sha256": "ee0fe58434c1800a95d2f3bb897f420889a7e851cc918d2ca67ff6166e102191",
+      "fields": {
+        "m_fontSize": 40.0,
+        "m_fontSizeBase": 40.0,
+        "m_enableAutoSizing": 0,
+        "m_textAlignment": 513,
+        "m_isAlignmentEnumConverted": 1,
+        "m_enableWordWrapping": 0
+      },
+      "edits": [
+        {
+          "offset": 386,
+          "before_hex": "30",
+          "after_hex": "20"
+        },
+        {
+          "offset": 390,
+          "before_hex": "30",
+          "after_hex": "20"
+        },
+        {
+          "offset": 412,
+          "before_hex": "0000",
+          "after_hex": "0102"
+        },
+        {
+          "offset": 416,
+          "before_hex": "00",
+          "after_hex": "01"
+        },
+        {
+          "offset": 444,
+          "before_hex": "01",
+          "after_hex": "00"
+        }
+      ]
+    },
+    {
+      "path_id": 1612,
+      "source_object_sha256": "be99c66cf6620011e5666c42c1d1b4ac5ef9e03eb5ca89230c87c7a6453cc850",
+      "fields": {
+        "m_GlobalPointSize": 40.0
+      },
+      "edits": [
+        {
+          "offset": 362,
+          "before_hex": "6041",
+          "after_hex": "2042"
+        }
+      ]
+    },
+    {
+      "path_id": 1065,
+      "source_object_sha256": "acc47a5fbc76f57214820a4965484c2ef6d81fa5be5a4240dc92f2f4a5d8d78b",
+      "fields": {
+        "m_AnchoredPosition": {
+          "x": 2037.0,
+          "y": -1505.0
+        },
+        "m_LocalPosition": {
+          "x": 1987.0,
+          "y": -1455.0,
+          "z": 0.0
+        }
+      },
+      "edits": [
+        {
+          "offset": 28,
+          "before_hex": "01c0",
+          "after_hex": "0060"
+        },
+        {
+          "offset": 108,
+          "before_hex": "0100ff",
+          "after_hex": "00a0fe"
+        }
+      ]
+    },
+    {
+      "path_id": 996,
+      "source_object_sha256": "a2068eb4c9f1a3d8652fbfea27f0617a47fde94233c9604b60afdc86ee030acf",
+      "fields": {
+        "m_AnchoredPosition": {
+          "x": 2037.0,
+          "y": -1369.0
+        },
+        "m_LocalPosition": {
+          "x": 1987.0,
+          "y": -1319.0,
+          "z": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 415.5623474121094,
+          "y": 48.0
+        }
+      },
+      "edits": [
+        {
+          "offset": 28,
+          "before_hex": "02",
+          "after_hex": "00"
+        },
+        {
+          "offset": 34,
+          "before_hex": "a5",
+          "after_hex": "a4"
+        },
+        {
+          "offset": 84,
+          "before_hex": "02",
+          "after_hex": "00"
+        },
+        {
+          "offset": 90,
+          "before_hex": "ac",
+          "after_hex": "ab"
+        },
+        {
+          "offset": 98,
+          "before_hex": "0c",
+          "after_hex": "40"
+        }
+      ]
+    },
+    {
+      "path_id": 1277,
+      "source_object_sha256": "0ac544e83d88c0d00b780ea257678eea2e4ea770fe8bc7cfc3bbafb4987d56e8",
+      "fields": {
+        "m_fontSize": 32.0,
+        "m_fontSizeBase": 32.0
+      },
+      "edits": [
+        {
+          "offset": 394,
+          "before_hex": "10",
+          "after_hex": "00"
+        },
+        {
+          "offset": 398,
+          "before_hex": "10",
+          "after_hex": "00"
+        }
+      ]
+    }
+  ]
+}
