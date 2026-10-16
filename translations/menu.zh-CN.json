@@ -1,0 +1,1372 @@
+{
+  "schema_version": 1,
+  "scope": "Main menu, profile creation and settings; retains the previous 14 dialogue entries. Credits body and gameplay are not fully translated.",
+  "source_hashes": {
+    "level1": "d6980b6905bfc4daf4173aec3a560a18a47bb20916135b37268988b1e065c73a",
+    "Managed/Assembly-CSharp.dll": "e263cbdcc0f8efd88a031643e2f3b1243df19d0e74cecefb00988101dfa07feb"
+  },
+  "scene": [
+    {
+      "path_id": 1203,
+      "field": "m_text",
+      "offset": 196,
+      "span": 68,
+      "source_object_sha256": "c8fe26287c8a2a007d1a1263762d5db300b0b5455a4f7abb2a0b1fdd891fe69a",
+      "source_text_sha256": "b7ce519edce86aba7a01f26125842449d361814a588b5aedfea6741b252d7f5c",
+      "target": "请选择章节。此后所有进度都将丢失。"
+    },
+    {
+      "path_id": 1204,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "ff9267dd3e3d4858fdc2cd27f9820670878b05259dddf9f71ed95b5453ddf5d1",
+      "source_text_sha256": "3d85f5fd4e156f8c1ab89827079b68e131bf994e1572580acbc3dcd74cfbaee7",
+      "target": "你知道吗？"
+    },
+    {
+      "path_id": 1205,
+      "field": "m_text",
+      "offset": 196,
+      "span": 40,
+      "source_object_sha256": "6d5b8d0aa2b2a6e72a8d9d27c9729852e3dd65cb24f9260007ab2db717134842",
+      "source_text_sha256": "6cc5c82f28fea5738b9449b47ceec8a522095cf3518ea5453a28eecbfe2b3577",
+      "target": "我同意上述条款。"
+    },
+    {
+      "path_id": 1206,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "cdb051c8bece5b1a6481a9dcca607d8cbbf5e998462d58ae0e6b1c3630088ead",
+      "source_text_sha256": "1e2ea4ed42df00b49072605adcb597172ee13983940eec69dec1eb17ee30641d",
+      "target": "第一章"
+    },
+    {
+      "path_id": 1207,
+      "field": "m_text",
+      "offset": 196,
+      "span": 40,
+      "source_object_sha256": "de3e99bf2457e909c9a6d897ef6e28839ca164f0e6e9f1b3db1ecc6a8f0a4dd8",
+      "source_text_sha256": "947b181c499c7377901e9366fda358e9b215e23306ef879c1162dc689c707bd0",
+      "target": "请同意以下条款："
+    },
+    {
+      "path_id": 1208,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "0d7e542e214de5d2531ae719c882341b343e397673544bfcfb4d291533da9ab2",
+      "source_text_sha256": "abd712f839e89385a80ebcceedc949e479dad4a2ab562a3bb45149a47f2dc653",
+      "target": "第三章"
+    },
+    {
+      "path_id": 1209,
+      "field": "m_text",
+      "offset": 196,
+      "span": 48,
+      "source_object_sha256": "9bfc09c5502bdbf3dce31d850eb87182dca31d47b8ef11cb5a1a1237a456d453",
+      "source_text_sha256": "330d32c47b3471b538e0f97099266142bfc7c3d8bea800bfabc6257cc17b2f0c",
+      "target": "你是 18,069 名候选特工之一。"
+    },
+    {
+      "path_id": 1210,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "823286423863b1b5c1855a440969a17e47a3e8f35e6cd70c735a790a1306902e",
+      "source_text_sha256": "8df675ff28e47f5d99ff79aa28ec8633dd788f383bae3829354b4087b764eaf8",
+      "target": "第二章"
+    },
+    {
+      "path_id": 1211,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "d8cee266b39af5976f7c80d8dde128263c00ba664f9b9b35c98efadf96ec2ee1",
+      "source_text_sha256": "4759498ac2a719c619e2c8cf8ee60af2d2407425e95d308eb208425b2a6d427a",
+      "target": "创建"
+    },
+    {
+      "path_id": 1212,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "b8bb15da275ff37cc28226152d37701f05c9b784001e77924c14fa5d04e83a64",
+      "source_text_sha256": "4e5fc6f52f598024af356abc91248fd13fdb6c026b5ff2bf1644faf4c5d62c81",
+      "target": "删除档案"
+    },
+    {
+      "path_id": 1213,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "386ff7dbc7b805af1d4eb5380539599bf1e06119a37649a38f91f094562f19a9",
+      "source_text_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a",
+      "target": "音频"
+    },
+    {
+      "path_id": 1214,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "ac9610191eb41fcef921703a3f62412aaf0325e745942413b337f6c557d010ac",
+      "source_text_sha256": "8df675ff28e47f5d99ff79aa28ec8633dd788f383bae3829354b4087b764eaf8",
+      "target": "第二章"
+    },
+    {
+      "path_id": 1215,
+      "field": "m_text",
+      "offset": 196,
+      "span": 8,
+      "source_object_sha256": "40fae5b6272562ff0f372193acc122c1bf3491505e6b7f418eb0e01d73791155",
+      "source_text_sha256": "dcd1d5223f73b3a965c07e3ff5dbee3eedcfedb806686a05b9b3868a2c3d6d50",
+      "target": "姓名"
+    },
+    {
+      "path_id": 1217,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "a39cfa59ba351154a64eaa2a219a3e03daa420349912786d048c40b0699305a9",
+      "source_text_sha256": "68b332447dd967ca0e7baea50500e43711716caee0e117fcfdd300465de8ac10",
+      "target": "欢迎，特工！"
+    },
+    {
+      "path_id": 1218,
+      "field": "m_text",
+      "offset": 196,
+      "span": 8,
+      "source_object_sha256": "8798cc8f40545dab435aecbdbfa8e3c296ccaaad826e500c8024b3c9f38d7423",
+      "source_text_sha256": "3c482346f375027677fa8a0d6830a32714d4f13f9e94c2d9e215e0ac205ad4e5",
+      "target": "返回"
+    },
+    {
+      "path_id": 1219,
+      "field": "m_text",
+      "offset": 196,
+      "span": 156,
+      "source_object_sha256": "1e6a65f117e142d0736ad609aff33a71c983681e7fe2b59c57c170e4b160ff71",
+      "source_text_sha256": "dd7f5a46e3c72b7cc5dc0b8cdb4461a5e0dbbec52ee3da61d85d56ce84c09fae",
+      "target": "以下调查员可与你配对。如需配对，请选择相应的调查员档案。"
+    },
+    {
+      "path_id": 1220,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "922c8b5f07602590059f5bfdffd98ac15e7543c060b5c827dd2689dc7dbbd89b",
+      "source_text_sha256": "1d2d025186eb40d6a58195164e626db01e97caae6e4d1f384e7714e724f61ba7",
+      "target": "档案 01"
+    },
+    {
+      "path_id": 1221,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "5383e9789bffd31c43f531b9d935592fe05702be7e50c7063274128df098109f",
+      "source_text_sha256": "d534be829e32196b4d1e53b67103cf1e376b1d60071857572598c196abfefbc6",
+      "target": "视频"
+    },
+    {
+      "path_id": 1222,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "9eb12460c108e827d0fc0806f810e8cce551ae1c8bb3fffa3e9e557dfbb3a076",
+      "source_text_sha256": "4e5fc6f52f598024af356abc91248fd13fdb6c026b5ff2bf1644faf4c5d62c81",
+      "target": "删除档案"
+    },
+    {
+      "path_id": 1223,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "0734da4baaa372927b7b29e6c1e4676234f727376899a2e01aa1b26fa6406aac",
+      "source_text_sha256": "6a572f9d5ac258d63f6a4fccfb5023f50f22831cc7e6ac421115bd3ec6ac0c7d",
+      "target": "档案选项"
+    },
+    {
+      "path_id": 1224,
+      "field": "m_text",
+      "offset": 196,
+      "span": 52,
+      "source_object_sha256": "19852833d60ef4410cba9c6f2db96968f6282d7fbcf2eb3c21bab8942b9b2975",
+      "source_text_sha256": "7f21b031aa63682b1ad56a2cb8603d51d8df2f7d6e21d108cf1d441818144a82",
+      "target": "确定要删除这份档案吗？"
+    },
+    {
+      "path_id": 1225,
+      "field": "m_text",
+      "offset": 196,
+      "span": 24,
+      "source_object_sha256": "28a8e1ee79b2004b0d37e694760a8f72894e66942370210df3806c74c2af574e",
+      "source_text_sha256": "b4d562f1edc3bdab95efc685895b3d76a0444ad585800c3e4fee4489cabe6d3c",
+      "target": "恭喜，"
+    },
+    {
+      "path_id": 1226,
+      "field": "m_text",
+      "offset": 196,
+      "span": 88,
+      "source_object_sha256": "8a38d91fc05f35159b0e28279ca304dbe6fa9971e135fd07d86dd12ba4875302",
+      "source_text_sha256": "9f907d35d0a95507319cf03cf53a0e39614fdc1e6bd136c8c08ad3f812e3cf2e",
+      "target": "我们强烈建议你与一名调查员配对，以获得更好的使用体验。"
+    },
+    {
+      "path_id": 1227,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "6c78d780c8ef2acb65ad24a5badf00da03a3fed0c304b244e2dc8cd6565f171e",
+      "source_text_sha256": "1d2d025186eb40d6a58195164e626db01e97caae6e4d1f384e7714e724f61ba7",
+      "target": "档案 01"
+    },
+    {
+      "path_id": 1228,
+      "field": "m_text",
+      "offset": 196,
+      "span": 24,
+      "source_object_sha256": "1415a6c4c87eb54b59d3f2c9b04578ac1cd63897a4046b462decf524abf9faff",
+      "source_text_sha256": "6c046676b7cc64a242ca46ee608afab2560c2c15c6366bb3850242f2c6c57bcb",
+      "target": "音效音量"
+    },
+    {
+      "path_id": 1229,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "7463796e938e089cafd68e04018f72e4c7dd08f9839af1df7b0d9f1e4a65db8c",
+      "source_text_sha256": "78459cd54391a8e842a08d2385805556d1233200cf5e54618128bcbfb9ce720d",
+      "target": "档案 5"
+    },
+    {
+      "path_id": 1230,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "2e72cd3965662f956ab7ed4a8e331db3ce4bdc1631b5ccc05237c7be05141abd",
+      "source_text_sha256": "1d2d025186eb40d6a58195164e626db01e97caae6e4d1f384e7714e724f61ba7",
+      "target": "档案 01"
+    },
+    {
+      "path_id": 1231,
+      "field": "m_text",
+      "offset": 196,
+      "span": 32,
+      "source_object_sha256": "31e15045889b6a86e23908b2b9a2894f986651da2171128f777eb09f92f820a9",
+      "source_text_sha256": "992c3e6962afa9d1005ff1c4213fa1c123e5f6c7062d08cc6ce4eda07fbea18d",
+      "target": "特工与调查员配对"
+    },
+    {
+      "path_id": 1232,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "f9b7d3f4606bb54110d59752f35aabfb976f2ed635025c715ae2604b0f132642",
+      "source_text_sha256": "abd712f839e89385a80ebcceedc949e479dad4a2ab562a3bb45149a47f2dc653",
+      "target": "第三章"
+    },
+    {
+      "path_id": 1233,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "53e7b3f101492d5b1d8e61fa58bb77d36edd77037af947e84ebe060334d5a854",
+      "source_text_sha256": "1c7d7d5fe08021bcf6bb8e9d21752b7df0d2bdf204d0f8c935d2fcdf73479692",
+      "target": "步骤 03/03"
+    },
+    {
+      "path_id": 1234,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "b127d6f3399aff1b79fc45f813d7bff21a6b23d80b8826ef0a95bb0611896ed1",
+      "source_text_sha256": "2ded4a3ee653ffdd82681e9f39144e169a1a217bea7f7c22a2795f48e3dc6864",
+      "target": "登录"
+    },
+    {
+      "path_id": 1235,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "c2a6bb75369d1de1065d902d9d33022806e2a18bc281705f95eee2691ef0136b",
+      "source_text_sha256": "4759498ac2a719c619e2c8cf8ee60af2d2407425e95d308eb208425b2a6d427a",
+      "target": "创建"
+    },
+    {
+      "path_id": 1236,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "a8ff286f9fafd19a38547a5e883049019e198fab4a89b21d7f42bc742e42b3d6",
+      "source_text_sha256": "e6f7e3ad46db7cd9a528c80248c98b7ae13a327f5429f3ddb3badcab35fb0b05",
+      "target": "奥威尔编号："
+    },
+    {
+      "path_id": 1237,
+      "field": "m_text",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "9e1190bafc79d0f1f4c3b8cc37d36359849d3bf016abf1ca71bbe8dbe666f3a2",
+      "source_text_sha256": "805f3eb69a3aad0efe480fdb00f2b79f9a4a44cdbd9f54e48c6f938851a994b3",
+      "target": "请创建个人档案："
+    },
+    {
+      "path_id": 1238,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "96d4532bca2b688d3aff9006ddadb143f965cc4748e4bbe4ba82284753b7ebe9",
+      "source_text_sha256": "3500942bbad841625e2fce6b6cc4ec4df7ea0eea99ee8aa90e3e75fe38f3592f",
+      "target": "步骤 02/04"
+    },
+    {
+      "path_id": 1239,
+      "field": "m_text",
+      "offset": 196,
+      "span": 8,
+      "source_object_sha256": "811f7c5c60d2135f4fd10205092b0a492094650832afd6dc6b845ae0d9bf9bd6",
+      "source_text_sha256": "b4dc66dde806261bdda8607d8707aa727d308cd80272381a5583f63899918467",
+      "target": "关"
+    },
+    {
+      "path_id": 1240,
+      "field": "m_text",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "553d1d806a24218c6125e808ca7b5dcca9df459f26f8067d36fb6142c5fa1ce9",
+      "source_text_sha256": "805f3eb69a3aad0efe480fdb00f2b79f9a4a44cdbd9f54e48c6f938851a994b3",
+      "target": "请创建个人档案："
+    },
+    {
+      "path_id": 1241,
+      "field": "m_text",
+      "offset": 196,
+      "span": 68,
+      "source_object_sha256": "2df49d401511a19aa8539234fb5905805a8539354885235e9663ce9a5230da05",
+      "source_text_sha256": "b7ce519edce86aba7a01f26125842449d361814a588b5aedfea6741b252d7f5c",
+      "target": "请选择章节。此后所有进度都将丢失。"
+    },
+    {
+      "path_id": 1242,
+      "field": "m_text",
+      "offset": 196,
+      "span": 40,
+      "source_object_sha256": "cbe7d453fd84f28d34324e9a4c9f85f787d0b597849fca2128a2c17c4665e399",
+      "source_text_sha256": "a3052e4980ef28897d57fd93f48c76c079c85c18965afddbcf574342d8b55bae",
+      "target": "感谢你为国家效力。"
+    },
+    {
+      "path_id": 1243,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "d6217f4610b81b2aa9499bd30f9af3f32796398dbcd8dbb32287bd02ac784056",
+      "source_text_sha256": "699a915ca89f6f74f170dddee9400e8180fb762229bfe1187ee80bd75e7df046",
+      "target": "在岗天数："
+    },
+    {
+      "path_id": 1244,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "828d3a1e22dda7078ba0e250b658fe49e589a51865f8df803b30e6c3c533104e",
+      "source_text_sha256": "a423b47777783386516c79baa19b0dfcd12cb40e4fba79348ad14ab0169402cd",
+      "target": "档案名称"
+    },
+    {
+      "path_id": 1245,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "ec3bf64545097b22ec8687d7d4e8cea85a1c93d17b1b90275db23dff2207b9fc",
+      "source_text_sha256": "84b5ee78b37389c77cee75b5cb5d4b1afb9e2208322843b51de0ee68cfb7fb4e",
+      "target": "制作人员"
+    },
+    {
+      "path_id": 1246,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "76d1019ba53578163f66d77f70731f1dde5ec54ab34bf9906f057ee27ea6c6d8",
+      "source_text_sha256": "892586e6be1f6e17e39881d9a2a94e013e1b7cd8b4263b79eb2c04e83c504882",
+      "target": "否，保留档案"
+    },
+    {
+      "path_id": 1247,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "06160ecbaa468327e262f1bc584d30cad21a48ddd8be2461a5a99c907cb22c90",
+      "source_text_sha256": "7c0406ce9dd429361eee1c9708593903c45b31f105dca873c3782dbdd68a348e",
+      "target": "档案 02"
+    },
+    {
+      "path_id": 1248,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "c19b4a31f2b739959be579dccf47f23cecea0229ce32ce60afeb95fabaadcabe",
+      "source_text_sha256": "ef9a21839eb4eda8142f7bbda7f0d446dade7d5122caab789ceca09542dea3b5",
+      "target": "设置"
+    },
+    {
+      "path_id": 1250,
+      "field": "m_text",
+      "offset": 196,
+      "span": 48,
+      "source_object_sha256": "7a7abd19b77d9432d26f7bae590ac0fb9b335f52f152b85c02bdbb87edde5636",
+      "source_text_sha256": "1f2e3a09105a1bcc047f07f0f9d6d1dfeabb1e7b4b7c122c0126359e7c4e846b",
+      "target": "档案不兼容，请更新游戏。"
+    },
+    {
+      "path_id": 1251,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "830c01fdc1bcd19c2bbf199c9cef4332a4900cae6dae97868fb9d4375628d2e4",
+      "source_text_sha256": "4759498ac2a719c619e2c8cf8ee60af2d2407425e95d308eb208425b2a6d427a",
+      "target": "创建"
+    },
+    {
+      "path_id": 1252,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "ae3d361b3d93d04d3fa9199ab3748a7b2028295cfbfde7038e625235aef82b05",
+      "source_text_sha256": "1e2ea4ed42df00b49072605adcb597172ee13983940eec69dec1eb17ee30641d",
+      "target": "第一章"
+    },
+    {
+      "path_id": 1253,
+      "field": "m_text",
+      "offset": 196,
+      "span": 52,
+      "source_object_sha256": "cc1b0a57e684a865306727e9b9fab2a30a7ee9d6c29afa5317979fd7dfef725d",
+      "source_text_sha256": "2dc5c911291070a6e2e5731ee57d2bffcde89fc0e67eaeab7bf6c9c3c943f1a5",
+      "target": "完成所有章节后解锁章节选择"
+    },
+    {
+      "path_id": 1254,
+      "field": "m_text",
+      "offset": 196,
+      "span": 24,
+      "source_object_sha256": "4a72e086fcff3398650370de7b1d99a9885389178c6c3996bfc2429be9b9e9a3",
+      "source_text_sha256": "6590dec64b831908ff24604645b4aedc24a5703267009fdcad556f03ecd3adbf",
+      "target": "是，删除档案"
+    },
+    {
+      "path_id": 1255,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "b2eb69590d248e41d4290964be3455453469b759725113337e6a531f41ee8dc7",
+      "source_text_sha256": "6a572f9d5ac258d63f6a4fccfb5023f50f22831cc7e6ac421115bd3ec6ac0c7d",
+      "target": "档案选项"
+    },
+    {
+      "path_id": 1256,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "57282f50d2e902c316abd4916b7b11b4e894387125dc47c5537526b16c297688",
+      "source_text_sha256": "cb09c312d9618b37090e68b2909c9e088a721c40057cc623586fe33b02c28c61",
+      "target": "语音音量"
+    },
+    {
+      "path_id": 1257,
+      "field": "m_text",
+      "offset": 196,
+      "span": 8,
+      "source_object_sha256": "cd64d7be59aad72a5f8bf6340de0fe4d2496d10ca90add2e23546ce707bdebc6",
+      "source_text_sha256": "dcd1d5223f73b3a965c07e3ff5dbee3eedcfedb806686a05b9b3868a2c3d6d50",
+      "target": "姓名"
+    },
+    {
+      "path_id": 1258,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "d0a265365484fb8b31a06045ce8ef310c68e2917c25f3dc55435378f40f3fc9a",
+      "source_text_sha256": "e6f7e3ad46db7cd9a528c80248c98b7ae13a327f5429f3ddb3badcab35fb0b05",
+      "target": "奥威尔编号："
+    },
+    {
+      "path_id": 1259,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "41d3f68619efedfe8bc2798d01d79c1c4df534983860f4d6b7a9b622fc8b3840",
+      "source_text_sha256": "e8ad417522a9860202830b9114c111e52e9aeee6152896cd4dce580ee91443ff",
+      "target": "感谢你"
+    },
+    {
+      "path_id": 1260,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "331c76966aecc26163699133df852698ff346e76632333008bea4387c7d07a29",
+      "source_text_sha256": "674fe2acd0d5f47b46180dd66e26e349cd9c9db215046f5e86ea2f5728d18117",
+      "target": "全屏"
+    },
+    {
+      "path_id": 1261,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "a96296431d04145c221b4bff5391a33c47b938cac5ea550963e65058a06b4f9d",
+      "source_text_sha256": "6a572f9d5ac258d63f6a4fccfb5023f50f22831cc7e6ac421115bd3ec6ac0c7d",
+      "target": "档案选项"
+    },
+    {
+      "path_id": 1263,
+      "field": "m_text",
+      "offset": 196,
+      "span": 8,
+      "source_object_sha256": "78e91b97a0ff2a9c9786ae4b0cb7f8ffd9967b6852f244f24c775591a10bead2",
+      "source_text_sha256": "dcd1d5223f73b3a965c07e3ff5dbee3eedcfedb806686a05b9b3868a2c3d6d50",
+      "target": "姓名"
+    },
+    {
+      "path_id": 1264,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "ea6ab4f87368ae6aca794901bcf6e4dfd11fc946130a4b3f6c5702f1816e934a",
+      "source_text_sha256": "b2bc4222179b48ed28b393ad4336a4861c38bfba634a1424f60ef79f2a172de8",
+      "target": "* 选填"
+    },
+    {
+      "path_id": 1265,
+      "field": "m_text",
+      "offset": 196,
+      "span": 36,
+      "source_object_sha256": "fca2ae332f49aeba838803bdd8578638e6e8e3abcfc3b290053444af7edc293d",
+      "source_text_sha256": "6f92b8e797eb62469d6dddda97ce07a0b22d2056c367a9915b4140d5b5f23487",
+      "target": "在浏览器中查看隐私政策"
+    },
+    {
+      "path_id": 1266,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "a25082654033c378514e8edbf149994c20580cf6fb8c17d2f1728e9003c107cd",
+      "source_text_sha256": "2b58b1d73840cc0369c392b92877ed7c4757529c4c8c4bea07b9762f51b2ca39",
+      "target": "档案 3"
+    },
+    {
+      "path_id": 1267,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "d55525a0f599a3fef05a0289e7f0a9596f8e742ee12770f7926cfeb97d4c9dc0",
+      "source_text_sha256": "b2bc4222179b48ed28b393ad4336a4861c38bfba634a1424f60ef79f2a172de8",
+      "target": "* 选填"
+    },
+    {
+      "path_id": 1268,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "2649c514c29eb2186d37e42556b3e75e81ad57df5a7d8f2714632e4bdd190351",
+      "source_text_sha256": "6a572f9d5ac258d63f6a4fccfb5023f50f22831cc7e6ac421115bd3ec6ac0c7d",
+      "target": "档案选项"
+    },
+    {
+      "path_id": 1269,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "5e110c1e964bb0bd53fe255a859ac0fef5063ae064a4a17c9b16be90a4072ce5",
+      "source_text_sha256": "849cf46b19f9478ee0e6ebd72c26b79c469b3c52a7ba9592800ffd7efc4ffa47",
+      "target": "载入章节"
+    },
+    {
+      "path_id": 1270,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "79d4f8787508a551943a5f17a47c495bec6d7e8328d72a2f9d3083a76a3da0a5",
+      "source_text_sha256": "4759498ac2a719c619e2c8cf8ee60af2d2407425e95d308eb208425b2a6d427a",
+      "target": "创建"
+    },
+    {
+      "path_id": 1271,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "a2264b010ee5ccf66e1eba9d096b370674454def8ba130a26c9e84e45ce2e738",
+      "source_text_sha256": "6be4c7c5fcc4c25e623f7bf48b3ac30a338cfc4f24313ffcd640521131c3ccb8",
+      "target": "欢迎，"
+    },
+    {
+      "path_id": 1272,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "24f2cd73ea88d4a0bd9229124af299d47a40fc24b6b2e6045a931156b94a1eb0",
+      "source_text_sha256": "2ded4a3ee653ffdd82681e9f39144e169a1a217bea7f7c22a2795f48e3dc6864",
+      "target": "登录"
+    },
+    {
+      "path_id": 1273,
+      "field": "m_text",
+      "offset": 196,
+      "span": 56,
+      "source_object_sha256": "7586c9c4ab05a91cd2599c70fc6fc0d52b9427107044ddc4aee8ae267c46ed6e",
+      "source_text_sha256": "5e4fee16a5b85730da5f82cac093693451ef3355e19cfae412a0e17c57848d42",
+      "target": "守护国家人民的安全。"
+    },
+    {
+      "path_id": 1274,
+      "field": "m_text",
+      "offset": 196,
+      "span": 24,
+      "source_object_sha256": "8eace3291619811ace69c582c5f180d2b5658b613b1b3ec51678720162185005",
+      "source_text_sha256": "df4092edf3e955476fc8a6f29d1440cb74f47dda88f3081949659774ed9acad2",
+      "target": "正在创建档案"
+    },
+    {
+      "path_id": 1275,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "f17272df2ee6cc380bc739eaa2cc1ce49cc52f0d89d1dc033b548817b51e32b7",
+      "source_text_sha256": "c7f98e96cf190b003baf6ba629bd2ca48da0f35825e5330a988881f6668c59ae",
+      "target": "音乐音量"
+    },
+    {
+      "path_id": 1276,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "771d753f0b5ccd2308e9d55c04d439580e88af0dfc168d339a3b0551d29b67d2",
+      "source_text_sha256": "b910f0b0fcf7c3eb9cfb3046ff6bf5236d429854f5e1b433c8a88facbe515de4",
+      "target": "请稍候"
+    },
+    {
+      "path_id": 1277,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "7a248c77836623bccd441aeb599d261dc214baa43dd8deb687c34e7aa9309fb1",
+      "source_text_sha256": "0421de120444dad31b883893333d474e505557cf255c2afd5d86389247ab6094",
+      "target": "请输入姓名"
+    },
+    {
+      "path_id": 1279,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "f9580d86d8e9d938d79613c616c6a11f6eed484c809e9026cd805b8992bbce59",
+      "source_text_sha256": "3e54f9c872345864e8f15a28e2aebc710a9c0808c89e30c5e1fb964f55972290",
+      "target": "档案 4"
+    },
+    {
+      "path_id": 1280,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "1ccb046cd952945ccbc37d1e04ae7f0ae666550aea0fad4e675dc3c86652d906",
+      "source_text_sha256": "6b8149ad216bf5ea373de4be828d68abed40938d57099734d12ae85d2ecc2c5a",
+      "target": "欢迎，"
+    },
+    {
+      "path_id": 1281,
+      "field": "m_text",
+      "offset": 196,
+      "span": 52,
+      "source_object_sha256": "2fa3f54e186e42461c4fb05bfc08691db486998a05e552e96e7894f3cbe07a6f",
+      "source_text_sha256": "2dc5c911291070a6e2e5731ee57d2bffcde89fc0e67eaeab7bf6c9c3c943f1a5",
+      "target": "完成所有章节后解锁章节选择"
+    },
+    {
+      "path_id": 1282,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "e1b0c459b2242fbcdb287070d54a43829794e4182fa8df0d54cc2b9ae60654f7",
+      "source_text_sha256": "699a915ca89f6f74f170dddee9400e8180fb762229bfe1187ee80bd75e7df046",
+      "target": "在岗天数："
+    },
+    {
+      "path_id": 1283,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "954b0e98f603fc11149062d16c0f912a7a99e7f6f58d439a2bcd4b75193c3861",
+      "source_text_sha256": "2ded4a3ee653ffdd82681e9f39144e169a1a217bea7f7c22a2795f48e3dc6864",
+      "target": "登录"
+    },
+    {
+      "path_id": 1284,
+      "field": "m_text",
+      "offset": 196,
+      "span": 40,
+      "source_object_sha256": "4b8c65b16c49da1827c7bcec8783d1aaff9a59fc39197124e7c830cbd0300f08",
+      "source_text_sha256": "d98ffd0df7dc7de35ba7afb14cf1a0e97ea622ffb2f1e790848d13b4fca051cf",
+      "target": "你已获准加入\n“奥威尔”。"
+    },
+    {
+      "path_id": 1285,
+      "field": "m_text",
+      "offset": 196,
+      "span": 36,
+      "source_object_sha256": "75946d7c4728ecc3bcc349c7358dc906e4dbb114defa8215f5ad771a2b3bea1d",
+      "source_text_sha256": "e46bf4c57b88e289cffce5f2b37d7e739c4de85b59b0b389c16cdb17e02ff700",
+      "target": "请输入电子邮箱（选填）"
+    },
+    {
+      "path_id": 1286,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "5d56d86c773184f682c801c7f325e308168aaecf57f60f190eec7a7e60cc6166",
+      "source_text_sha256": "b3fee5cccb3abfcfadb4565688cf5e9e10f113bf69a7e5e194bf9178077b3f15",
+      "target": "步骤 02/03"
+    },
+    {
+      "path_id": 1287,
+      "field": "m_text",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "aed0fac5d6f05ad9614624f05ce85b90ebc33f3d7d1ac30b10a98fa50e9c7154",
+      "source_text_sha256": "818486c59f08f1eeda4d2c0e78355921386ba9dd8af891876502cceb62c7dafe",
+      "target": "我未满 16 周岁"
+    },
+    {
+      "path_id": 1288,
+      "field": "m_text",
+      "offset": 196,
+      "span": 32,
+      "source_object_sha256": "54a0dd173e1bfe589542470eee839c79d5e1384028eb87447c3de87f7a911c04",
+      "source_text_sha256": "649b3b99285cc4ac8cf8bbca28a05b68b9068aa07061571d97e8149777669d8e",
+      "target": "所有档案栏位均已占用"
+    },
+    {
+      "path_id": 1289,
+      "field": "m_text",
+      "offset": 196,
+      "span": 244,
+      "source_object_sha256": "5b0cbdbcb82398a4933f3265cff82913aaabcd04675380689b636aea74899cc6",
+      "source_text_sha256": "5900b12eac088756ec32bf33fbc5ddc612f262b570451beaa2805a19e5a1def3",
+      "target": "· 我愿意深刻影响本国公民及非本国公民的生活。\n· 我将不惜一切代价，保卫国家免受侵害。\n· 工作期间，我将只遵循办公室的章程与原则。"
+    },
+    {
+      "path_id": 1290,
+      "field": "m_text",
+      "offset": 196,
+      "span": 48,
+      "source_object_sha256": "dcfce692d115890d7af797e3391d9b89d7f687c7bf97e6f169915d4458cf99b2",
+      "source_text_sha256": "1f2e3a09105a1bcc047f07f0f9d6d1dfeabb1e7b4b7c122c0126359e7c4e846b",
+      "target": "档案不兼容，请更新游戏。"
+    },
+    {
+      "path_id": 1291,
+      "field": "m_text",
+      "offset": 196,
+      "span": 8,
+      "source_object_sha256": "5468be49d7a4717a3fcf523f1980ec616d1c22a3b0e28dc3ae0faa09e0e9104c",
+      "source_text_sha256": "3c482346f375027677fa8a0d6830a32714d4f13f9e94c2d9e215e0ac205ad4e5",
+      "target": "返回"
+    },
+    {
+      "path_id": 1292,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "b46fc92ad75987d833383029dd956bf9b8e3c5869aed9339f7453b970920ce38",
+      "source_text_sha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+      "target": "取消"
+    },
+    {
+      "path_id": 1294,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "04c5abbaa37334a9b7f2f298a52db5bbc04b4e8118c89bb7469f551ba9a611e4",
+      "source_text_sha256": "b2bc4222179b48ed28b393ad4336a4861c38bfba634a1424f60ef79f2a172de8",
+      "target": "* 选填"
+    },
+    {
+      "path_id": 1295,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "eacf6224cc5b5084402807a087b2e2afc0f8cfe105c7fd99ccee08f84e6fe7b2",
+      "source_text_sha256": "aab3544307c81cb8821346c94b5d926d3b866ccb2ec8ffaa8bfe04f13fc26620",
+      "target": "恪尽职守，"
+    },
+    {
+      "path_id": 1296,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "358fd2211db6b768fe7411ab19589e7112841eac72f339a2d49a0fa34148defc",
+      "source_text_sha256": "318c1da8d9da6f0ce0c2c8e0aba5181a4d3104ca2630bec4a236676833686ac3",
+      "target": "上一步"
+    },
+    {
+      "path_id": 1297,
+      "field": "m_text",
+      "offset": 196,
+      "span": 36,
+      "source_object_sha256": "3c7c0f2ec5616eefab8c32d008a21d706e2a8f0ddf7d11ee5e68826c414ae1ab",
+      "source_text_sha256": "0a146098f1e39b2a60075ab76040479becaaec30dd8e4609c7f5bb4f74e9909a",
+      "target": "指派案件：邦顿爆炸案"
+    },
+    {
+      "path_id": 1298,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "919af42da51eb62ddbbccc88393a1f2988186cd236202e762e151ecdffd1c8f2",
+      "source_text_sha256": "699a915ca89f6f74f170dddee9400e8180fb762229bfe1187ee80bd75e7df046",
+      "target": "在岗天数："
+    },
+    {
+      "path_id": 1299,
+      "field": "m_text",
+      "offset": 196,
+      "span": 8,
+      "source_object_sha256": "f041d6a7ccdd781f44fd7da771534d8207360d558252395509088a89726dba0f",
+      "source_text_sha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6",
+      "target": "或"
+    },
+    {
+      "path_id": 1300,
+      "field": "m_text",
+      "offset": 196,
+      "span": 48,
+      "source_object_sha256": "832f875646b0b3d38447b8a05a0de57b8a5feb9de2f9d70040b52bf39800f8e5",
+      "source_text_sha256": "1f2e3a09105a1bcc047f07f0f9d6d1dfeabb1e7b4b7c122c0126359e7c4e846b",
+      "target": "档案不兼容，请更新游戏。"
+    },
+    {
+      "path_id": 1301,
+      "field": "m_text",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "eca2130e1b27a49cd4a017f6c701e465a93b5086fa76b497cc8b200975371718",
+      "source_text_sha256": "a8dc3633fc54c83970b493f71f653482b41b3e195fceca5295b2742ebfac32eb",
+      "target": "奥威尔编号：4387-D6_kr"
+    },
+    {
+      "path_id": 1302,
+      "field": "m_text",
+      "offset": 196,
+      "span": 260,
+      "source_object_sha256": "9e1d408f26f134385ceb08656a691ca8eb48643db7300e2fe9a11db07e6d47cd",
+      "source_text_sha256": "331ea3ead7bbb930e0972459ff1dbf76c2793bea0d38121f40f206b00172e7ce",
+      "target": "填写电子邮箱后，我们可以向你发送有关奥威尔案件的更新、潜在新案件，以及包含新闻、相关产品等内容的每月电子简报。我们将妥善处理你的信息，不会用于其他用途。"
+    },
+    {
+      "path_id": 1303,
+      "field": "m_text",
+      "offset": 196,
+      "span": 48,
+      "source_object_sha256": "1ed872c0d74379c483a4e5971b613fc5ce1bac49ac897830e2028cf08d5a2c20",
+      "source_text_sha256": "1f2e3a09105a1bcc047f07f0f9d6d1dfeabb1e7b4b7c122c0126359e7c4e846b",
+      "target": "档案不兼容，请更新游戏。"
+    },
+    {
+      "path_id": 1304,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "f4e10578e553405e5219bfd92fab0c235bd6d9a95d350f2c76b50b3fa63e0b87",
+      "source_text_sha256": "765abe36c2548a790a4b575250bb0cf710e810bc51ce17e135f47ce1330a90ea",
+      "target": "第五章"
+    },
+    {
+      "path_id": 1305,
+      "field": "m_text",
+      "offset": 196,
+      "span": 136,
+      "source_object_sha256": "5397c3e53d95274d03b67e2f204a210915b8e5e25866e4aed51fa9f91403a9ce",
+      "source_text_sha256": "5cabb395add1e877d5e3afec98e1d59b00697da2797b15dcfa9c69cf20955a70",
+      "target": "根据我们的隐私政策及条款，我们不会收集未满 16 周岁者的数据。你仍可继续执行任务。"
+    },
+    {
+      "path_id": 1306,
+      "field": "m_text",
+      "offset": 196,
+      "span": 40,
+      "source_object_sha256": "9f215182077438e04fce25d9c753df9be918acbfe73e3d75a05e2f29b0be3391",
+      "source_text_sha256": "51d11f3a93b0da07578ba9a1aae9e3d7eda1046b386f4de3b764789d531a8e11",
+      "target": "从 Facebook 导入资料*"
+    },
+    {
+      "path_id": 1307,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "0565752d6db069612e36e285ff96da9546d8cbd347755f2909433ca743383283",
+      "source_text_sha256": "2ded4a3ee653ffdd82681e9f39144e169a1a217bea7f7c22a2795f48e3dc6864",
+      "target": "登录"
+    },
+    {
+      "path_id": 1308,
+      "field": "m_text",
+      "offset": 196,
+      "span": 52,
+      "source_object_sha256": "396bdec4b498a73fbbf918438feb4770c2211bb26a9e880dae18317b93b0afd1",
+      "source_text_sha256": "efe8bb30c7988dcb38a177f77ff38bd365825311d85b09a0b39da9d34d3f07a9",
+      "target": "感谢你响应办公室的召唤。"
+    },
+    {
+      "path_id": 1309,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "994d104c0d8ce33f6cb17a12efd4a90556fc4f61ec9de7fbc7e4e72b492c6ed7",
+      "source_text_sha256": "e6f7e3ad46db7cd9a528c80248c98b7ae13a327f5429f3ddb3badcab35fb0b05",
+      "target": "奥威尔编号："
+    },
+    {
+      "path_id": 1310,
+      "field": "m_text",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "050074aad81227676eae2b692fb7193b042e571086d3389d16935496f0a3fa37",
+      "source_text_sha256": "a8dc3633fc54c83970b493f71f653482b41b3e195fceca5295b2742ebfac32eb",
+      "target": "奥威尔编号：4387-D6_kr"
+    },
+    {
+      "path_id": 1311,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "4b231e5963ba8dd494814cfec8fc6a3c7e883f3d4c5268fc611ee8f8e9e64343",
+      "source_text_sha256": "f6321aa7f9d1df53aab26a051b405ce63e7fd04056a92fa6500a5f39a1d425a5",
+      "target": "档案 2"
+    },
+    {
+      "path_id": 1312,
+      "field": "m_text",
+      "offset": 196,
+      "span": 8,
+      "source_object_sha256": "adffc96e3b5f350035e3f62527d494ee887f7b33723179680aab3543e7a7d826",
+      "source_text_sha256": "dcd1d5223f73b3a965c07e3ff5dbee3eedcfedb806686a05b9b3868a2c3d6d50",
+      "target": "姓名"
+    },
+    {
+      "path_id": 1313,
+      "field": "m_text",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "47ac20eda8aff7f71ac319d4e368eefab9fb19bff0605a652b780381d3699f6c",
+      "source_text_sha256": "b65296557ba51d7ed7b0df50345675883754ffb8d5db2388d3e088f279b56962",
+      "target": "请选择头像"
+    },
+    {
+      "path_id": 1314,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "be395ea39e8c5bc9cdf12cbb61047a29dc19d437eafa81852e9a23e9f5b70f43",
+      "source_text_sha256": "dc380888c4e2c7762212480ff86eb39150ec70b45009c33bc6adcbd0041384b1",
+      "target": "正在载入"
+    },
+    {
+      "path_id": 1315,
+      "field": "m_text",
+      "offset": 196,
+      "span": 44,
+      "source_object_sha256": "67311c6068db616cae13dee55fcec4b247661fa71fd8b53048602cb7412db427",
+      "source_text_sha256": "f4ea82dbba19df00ee198c9778111271ccfde5cbd68a79b96c73abff9c18d17c",
+      "target": "你已获选执行特别任务。"
+    },
+    {
+      "path_id": 1317,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "7b1126834143bb0e1be9b77489308ab55f061571dc0dd67e246bbae858706df2",
+      "source_text_sha256": "1d2d025186eb40d6a58195164e626db01e97caae6e4d1f384e7714e724f61ba7",
+      "target": "档案 01"
+    },
+    {
+      "path_id": 1318,
+      "field": "m_text",
+      "offset": 196,
+      "span": 44,
+      "source_object_sha256": "a28e379ad04638a47f45640c7513f575af4dbcea38d0ae0ce8dbf9e263d47724",
+      "source_text_sha256": "ea2bb0e2ad09497fbaaf1442b0490464e136263a0910c93eaee2bc4e6464110e",
+      "target": "你的职责是保卫国家。"
+    },
+    {
+      "path_id": 1319,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "50c520cf7638a1da74eba09c505418ba18b66093ef14a5437d5b941b7ab69d6c",
+      "source_text_sha256": "298a9207a732a11d42bba41239147e22ace14e6cbddb5bb022abd814e3e47472",
+      "target": "下一步"
+    },
+    {
+      "path_id": 1320,
+      "field": "m_text",
+      "offset": 196,
+      "span": 40,
+      "source_object_sha256": "99a3e08cf8ef6267a3442b2b51a5bdadcd1c29209f6ea456445e1488c60beeff",
+      "source_text_sha256": "02f9e56d43a7361bf624a5ab4721f844431741bb30b799a5c461b688e0f2ac0e",
+      "target": "你的注册现已完成。"
+    },
+    {
+      "path_id": 1321,
+      "field": "m_text",
+      "offset": 196,
+      "span": 44,
+      "source_object_sha256": "cc1693447ca48c41acf8544bed4cfc906e8333c7b751c5ee28cc91b267f7ed51",
+      "source_text_sha256": "c13cd567fe002cdae63f3a4ef636fbcc6afd8c2e78ad15e3565d719edaa8f6ce",
+      "target": "现在，你可以填写电子邮箱："
+    },
+    {
+      "path_id": 1322,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "74a07ed93682e47039f44a018e34849957671d0ec7882e42bf4d6744d6de7474",
+      "source_text_sha256": "e6f7e3ad46db7cd9a528c80248c98b7ae13a327f5429f3ddb3badcab35fb0b05",
+      "target": "奥威尔编号："
+    },
+    {
+      "path_id": 1323,
+      "field": "m_text",
+      "offset": 196,
+      "span": 52,
+      "source_object_sha256": "879de00720257efd2876c717a36c19dac3d09acd1de96c4894db38745d199fdb",
+      "source_text_sha256": "1c681d99cb33130ac782cc0d3c2aa67e44e8d8de96a8791a0efe883e34333801",
+      "target": "第五章：在那枝繁叶茂的栗树下"
+    },
+    {
+      "path_id": 1324,
+      "field": "m_text",
+      "offset": 196,
+      "span": 28,
+      "source_object_sha256": "ebcc01c6aaf8c2c342e504b87b746f7413ef48e1288cf6ced381d02d4341abc8",
+      "source_text_sha256": "788762867f9bf2cbf5d0c771c5bd758ae95d5ae06e4c0f5791483b8b9279eb97",
+      "target": "无知即力量"
+    },
+    {
+      "path_id": 1325,
+      "field": "m_text",
+      "offset": 196,
+      "span": 24,
+      "source_object_sha256": "56d85dfdd95210e134e47d63c9605005200483f37c5d7704b611251d705260bd",
+      "source_text_sha256": "b4d562f1edc3bdab95efc685895b3d76a0444ad585800c3e4fee4489cabe6d3c",
+      "target": "恭喜，"
+    },
+    {
+      "path_id": 1326,
+      "field": "m_text",
+      "offset": 196,
+      "span": 64,
+      "source_object_sha256": "16f213a7e9cab6de32307178b37df71c05c63f4a2738addbaf0441ffa6e8ff98",
+      "source_text_sha256": "0c7f96755abbf86ce44f12dadd1f0f5c573d83f75faf23a45b959ca72f42e656",
+      "target": "请输入真实姓名，否则后果自负。"
+    },
+    {
+      "path_id": 1327,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "13f64bd476dc4a753f7487e33541ca45a31e7ca2f613e5e547910f449618e997",
+      "source_text_sha256": "699a915ca89f6f74f170dddee9400e8180fb762229bfe1187ee80bd75e7df046",
+      "target": "在岗天数："
+    },
+    {
+      "path_id": 1328,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "acfb63ce8075d06afa422e17f09a840e67a3d5d4a5a0633e6d264b0f199f04e0",
+      "source_text_sha256": "1e2ea4ed42df00b49072605adcb597172ee13983940eec69dec1eb17ee30641d",
+      "target": "第一章"
+    },
+    {
+      "path_id": 1329,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "2b107e1914a00baf7730018a546808a90697b811ab52decfc6f178685c7ab6e5",
+      "source_text_sha256": "638bce65d87883d3b28bdb06c83f0ac4baaad67cbcf3158bcac980a42749d7b5",
+      "target": "步骤 01/03"
+    },
+    {
+      "path_id": 1330,
+      "field": "m_text",
+      "offset": 196,
+      "span": 12,
+      "source_object_sha256": "037eea433bed847f6ca566c65d4e05f4d46020c13739005244e950dee09f3e3b",
+      "source_text_sha256": "8a3d5400673751834251a4986f5fb06f194281f2966fc4a30e0fa7412f13fc39",
+      "target": "姓名"
+    },
+    {
+      "path_id": 1331,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "0765104da8bd05d645fbeede8265e9ee906fd2c00f391732726a64cd8980497d",
+      "source_text_sha256": "849cf46b19f9478ee0e6ebd72c26b79c469b3c52a7ba9592800ffd7efc4ffa47",
+      "target": "载入章节"
+    },
+    {
+      "path_id": 1332,
+      "field": "m_text",
+      "offset": 196,
+      "span": 160,
+      "source_object_sha256": "26a4ef2c06b8d6ee20f981203863ba36cc0fff907f5048c745132bf6a9bea556",
+      "source_text_sha256": "fb7ff488941ccdcbb4fa41b326131a105a887781fab7743a9c8e8b6ec89cc74b",
+      "target": "如需退订，你可以随时点击我们发送的每封电子简报末尾的退订链接。"
+    },
+    {
+      "path_id": 1334,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "1dd18bc7e186bdfee9a5c863981aab6ac59eee1ea4e2c0eb936b862a0742e585",
+      "source_text_sha256": "6a572f9d5ac258d63f6a4fccfb5023f50f22831cc7e6ac421115bd3ec6ac0c7d",
+      "target": "档案选项"
+    },
+    {
+      "path_id": 1335,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "1c7272dcf4f20692b910f334acde25f0363c10f507c1ed7dd0691d5c457de6d8",
+      "source_text_sha256": "b910f0b0fcf7c3eb9cfb3046ff6bf5236d429854f5e1b433c8a88facbe515de4",
+      "target": "请稍候"
+    },
+    {
+      "path_id": 1336,
+      "field": "m_text",
+      "offset": 196,
+      "span": 112,
+      "source_object_sha256": "13db75514d2413a8b7afd38dae7cd041a320a3fee127129e4bf17c6000c4ee23",
+      "source_text_sha256": "c0b0a0eafa970c59122045810cabf7e6afa3c4f826042ec92957ba42d3aa4cd6",
+      "target": "目前没有可供配对的调查员。请参阅常规奥威尔计划。"
+    },
+    {
+      "path_id": 1337,
+      "field": "m_text",
+      "offset": 196,
+      "span": 16,
+      "source_object_sha256": "7d1a0729286e86f9b2694caf623f15cd0386ec4c2401f940dd3343f9d128e2c8",
+      "source_text_sha256": "e7be810d639e8b4c56b22079263d80243d9ba11071a09c06a6d98a99a9e3707a",
+      "target": "档案 1"
+    },
+    {
+      "path_id": 1338,
+      "field": "m_text",
+      "offset": 196,
+      "span": 8,
+      "source_object_sha256": "e55e3ca830580f42eb1c592e30a0bba352384f3d74a273da5217c5b1f3c4e800",
+      "source_text_sha256": "b8d31e852725afb1e26d53bab6095b2bff1749c9275be13ed1c05a56ed31ec09",
+      "target": "开"
+    },
+    {
+      "path_id": 1339,
+      "field": "m_text",
+      "offset": 196,
+      "span": 20,
+      "source_object_sha256": "8953897e77a261ca9839050af64fe890593aa635e99159ea5f9a333700ae8a87",
+      "source_text_sha256": "d4f407b3b88bbde2ac7977dc27ad2e27301ed543786e580ab4e012cc964f0109",
+      "target": "在岗天数：05"
+    }
+  ],
+  "dll": [
+    {
+      "token": 68913,
+      "source_text_sha256": "298a9207a732a11d42bba41239147e22ace14e6cbddb5bb022abd814e3e47472",
+      "target": "下一步"
+    },
+    {
+      "token": 68933,
+      "source_text_sha256": "3d85f5fd4e156f8c1ab89827079b68e131bf994e1572580acbc3dcd74cfbaee7",
+      "target": "你知道吗？"
+    },
+    {
+      "token": 68961,
+      "source_text_sha256": "d006197abf079c239c9c0cbe4e7f59786458b056517a8bfbfa5eed01f3f77f02",
+      "target": "你是 {0} 名获录取者之一。"
+    },
+    {
+      "token": 69037,
+      "source_text_sha256": "6203bc6a5b4ab074b956c76c5fa429d26908b975271085f8be06dd0b43992cec",
+      "target": "你是首位获录取者。"
+    },
+    {
+      "token": 69113,
+      "source_text_sha256": "bd30c08d98198b1f9ebd3ee28a9cf948610103e349e499b2dc526359e820a70b",
+      "target": "你使用的是奥威尔办公版。"
+    },
+    {
+      "token": 69201,
+      "source_text_sha256": "30a6dada6c8b36445839b6924acef644eb4641fcb48ddb54c63d608833d01566",
+      "target": "未连接网络"
+    },
+    {
+      "token": 69229,
+      "source_text_sha256": "84a9ad4cb01798a04cb99384c0f843e239dbb77d52ccb0851a8265d100973a51",
+      "target": "联网即可订阅我们的电子简报。"
+    },
+    {
+      "token": 69311,
+      "source_text_sha256": "a6c7a84baa6750fce33f7512acd6793e53def1d228b5f2efb8074b42648424fc",
+      "target": "完成"
+    },
+    {
+      "token": 69353,
+      "source_text_sha256": "5783fbd29bbd68526aa767585bb66ce4f06918e8f73e25dfc25bc66667f6dcf6",
+      "target": "请选择头像。"
+    },
+    {
+      "token": 69419,
+      "source_text_sha256": "d1f5782591c4c403c2c0c8c1a63e01fd1ddb37a88d7a48ad51f9fc840924b7db",
+      "target": "请输入姓名。"
+    },
+    {
+      "token": 69461,
+      "source_text_sha256": "958e4ccf2953d7470be4931035b3f6cb762f04d6bac8060e428412af3c904c40",
+      "target": "请输入有效的电子邮箱。"
+    },
+    {
+      "token": 69533,
+      "source_text_sha256": "4b70fc3035d9e77d558e73eb2f1bf1232576ed15c991608e33126f472596ef98",
+      "target": "请至少上传一条信息。"
+    },
+    {
+      "token": 69609,
+      "source_text_sha256": "f511a72e23b56e84663500dd1979f9876116fe217eed40c4114c9044f2967dfe",
+      "target": "正在创建档案"
+    },
+    {
+      "token": 69647,
+      "source_text_sha256": "560825dde1180758570845f7b79bbe2821af4ea0eabf43c2a2f07d9de5cb1895",
+      "target": "你必须同意上述条款。"
+    },
+    {
+      "token": 69815,
+      "source_text_sha256": "58ff8be022009646d2a7e7223fa8afa36a038eeae651f08b80d5b28acb812dcb",
+      "target": "正在登录"
+    },
+    {
+      "token": 95991,
+      "source_text_sha256": "f1241c6e429a0f34eff8a0f6f43c1ef493aa5dcb37404fd6d89bb07c7c654080",
+      "target": "档案 0"
+    },
+    {
+      "token": 96011,
+      "source_text_sha256": "9f08e0c945d05cab064f43684d011bbaa4ad1793bd5c3208ad785af962581d30",
+      "target": "在岗天数："
+    },
+    {
+      "token": 22779,
+      "source_text_sha256": "253754c192384cfc5310ba66006bc87ed0034b9b531237c591dacb9899a8c9c6",
+      "target": "奥威尔编号："
+    },
+    {
+      "token": 96041,
+      "source_text_sha256": "3d8bf3d081167ef3e9b8e7292328d30da7005c28d3c9c74ee9c98da9bbd99baf",
+      "target": "载入章节 "
+    },
+    {
+      "token": 96069,
+      "source_text_sha256": "c0618c6b7d9a726ecbaeed088a2b98e50148ce26f02f33ab125f56c430a66d50",
+      "target": "确定要载入此章节吗？"
+    },
+    {
+      "token": 96157,
+      "source_text_sha256": "97374e041102fb7d157ea8b754370e96c49b7230a8ad993bc9c1f0275f8ba75d",
+      "target": "这份档案此后的所有进度都将丢失。"
+    },
+    {
+      "token": 96265,
+      "source_text_sha256": "8f91668f880382f1cb8c0ca453f1319dd82d8047c1e46d9f8fdc4734913b94f9",
+      "target": "否，保留进度"
+    },
+    {
+      "token": 96301,
+      "source_text_sha256": "b905f41a1cb4db07c809ae2e52d5d7075c613526f8e062426a18dc67e4741f28",
+      "target": "是，载入章节"
+    },
+    {
+      "token": 96337,
+      "source_text_sha256": "8b12507783d5becacbf2ebe5b01a60024d8728a8f86dcc818bce699e8b3320bc",
+      "target": "一"
+    },
+    {
+      "token": 96345,
+      "source_text_sha256": "94a72c074cfe574742c9e99e863322f73feff82981d065ff65a0308f44f19f62",
+      "target": "二"
+    },
+    {
+      "token": 96353,
+      "source_text_sha256": "926f52d1c1e19c0c58a7d39bf234a0d239352f5acfa26c73989d9c3845614999",
+      "target": "三"
+    },
+    {
+      "token": 96365,
+      "source_text_sha256": "12f5aedc5d39035cfd80b4569a521de7b4b577cf206326a6fced1572006c4b04",
+      "target": "四"
+    },
+    {
+      "token": 96375,
+      "source_text_sha256": "6ab523c52d1407cc4de015423091d1a76995f01d32d6c4b36616df23da744a0e",
+      "target": "五"
+    },
+    {
+      "token": 96385,
+      "source_text_sha256": "47311af432a79c40900020a1e43c1c80045bc9295fb0258c5bb4a181e55b149a",
+      "target": "删除档案"
+    },
+    {
+      "token": 96415,
+      "source_text_sha256": "7f21b031aa63682b1ad56a2cb8603d51d8df2f7d6e21d108cf1d441818144a82",
+      "target": "确定要删除这份档案吗？"
+    },
+    {
+      "token": 96507,
+      "source_text_sha256": "892586e6be1f6e17e39881d9a2a94e013e1b7cd8b4263b79eb2c04e83c504882",
+      "target": "否，保留档案"
+    },
+    {
+      "token": 96541,
+      "source_text_sha256": "6590dec64b831908ff24604645b4aedc24a5703267009fdcad556f03ecd3adbf",
+      "target": "是，删除档案"
+    },
+    {
+      "token": 96581,
+      "source_text_sha256": "0187bee4ceedd96fe841fa3030375e06d44345880eccfd17f5a515336dea0350",
+      "target": "第一章：正题"
+    },
+    {
+      "token": 96621,
+      "source_text_sha256": "7195ba3f25c85039a5655af9b5977be7091e27be2474b8980a2323ff643cc0dd",
+      "target": "第二章：反题"
+    },
+    {
+      "token": 96669,
+      "source_text_sha256": "2e8b8edbd02d869452ff32c6fa279a2776e5defba10c4eb3a81473f01ee20f34",
+      "target": "第三章：合题"
+    },
+    {
+      "token": 97098,
+      "source_text_sha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+      "target": "取消"
+    },
+    {
+      "token": 98956,
+      "source_text_sha256": "6455be69710db91eca7e5b9f7aedeb5b62c768f1b017750878dc9fc4c8d98ed8",
+      "target": "空白档案"
+    },
+    {
+      "token": 98984,
+      "source_text_sha256": "6c6c1ad6c9d5d86444906e9ae90c2aa7068b4a286ac81be085dcd4f78130232e",
+      "target": "在岗天数：0"
+    }
+  ]
+}

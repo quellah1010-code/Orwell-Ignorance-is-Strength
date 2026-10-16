@@ -1,0 +1,65 @@
+{
+  "version": "0.2",
+  "scope": "Main menu, profile creation and settings; retains the previous 14 dialogue entries. Credits body and gameplay are not fully translated.",
+  "source_hashes": {
+    "level1": "d6980b6905bfc4daf4173aec3a560a18a47bb20916135b37268988b1e065c73a",
+    "Managed/Assembly-CSharp.dll": "e263cbdcc0f8efd88a031643e2f3b1243df19d0e74cecefb00988101dfa07feb"
+  },
+  "output_hashes": {
+    "Ignorance_Data/resources.assets": "c16b6da5a0eda2ac134b964183d1919c154d1ecbd8667c22f9d23edd96e4d078",
+    "Ignorance_Data/level1": "a99002c90af5902ab0fd482f9d86cc576dc16e8086ffa980d5035dfcdfe889bf",
+    "Ignorance_Data/Managed/Assembly-CSharp.dll": "42f173d31616472a48195ead3900ed69c932a0b2b1a96230a6b4950afabe0a75"
+  },
+  "scene": {
+    "translated_objects": 130,
+    "unchanged_objects": 1617
+  },
+  "assembly": {
+    "translated_strings": 38,
+    "unchanged_outside_selected_heap_entries": true
+  },
+  "font_and_dialogue": {
+    "original_sha256": "1bc553fdc10358d2a4f78de1e2079a61ee46dc993636403dcfbc7b052b607b78",
+    "font_source_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "patched_sha256": "c16b6da5a0eda2ac134b964183d1919c154d1ecbd8667c22f9d23edd96e4d078",
+    "translated_entries": 14,
+    "new_font_codepoints": 506,
+    "new_cjk_codepoints": 398,
+    "new_objects": [
+      10680,
+      10681,
+      10682
+    ],
+    "modified_existing_objects": [
+      1137,
+      1138,
+      1247,
+      1258,
+      1269,
+      1280,
+      1291,
+      1302,
+      1313,
+      1324,
+      1335,
+      1515,
+      1516,
+      1517,
+      5007
+    ],
+    "unchanged_objects_byte_verified": 10664,
+    "font_references_verified": true,
+    "atlas_roundtrip_verified": true,
+    "runtime_tested": false,
+    "scope": "Introduction commentary and three early objectives only"
+  },
+  "runtime_tested": false,
+  "zip_bytes": 2076441,
+  "zip_sha256": "5df9e6ef8f35a134e5711898e53872bcd099e7a45aeb80b600a906afa286843c",
+  "zip_crc_verified": true,
+  "all_scene_fields_except_text_unchanged": true,
+  "verified_ldstr_uses": 2952,
+  "negative_checks_passed": true,
+  "platform": "Linux Python 3.12; Windows game not tested",
+  "legacy_0_1_output_unchanged": true
+}

@@ -163,7 +163,7 @@ def make_atlas(font_path, chars, atlas_size=2048, point_size=64, padding=9):
     return atlas, face, glyphs
 
 
-def build(source, translated, font_path, translations, output):
+def build(source, translated, font_path, translations, output, extra_texts=(), atlas_size=2048):
     source = Path(source)
     if hashlib.sha256(source.read_bytes()).hexdigest() != SOURCE_SHA256:
         raise ValueError('Original game build differs')
@@ -188,7 +188,9 @@ def build(source, translated, font_path, translations, output):
     chars = set(chr(i) for i in range(32, 127))
     for row in rows:
         chars.update(c for c in row['target'] if c.isprintable())
-    atlas_image, face, glyphs = make_atlas(font_path, chars)
+    for text in extra_texts:
+        chars.update(c for c in text if c.isprintable())
+    atlas_image, face, glyphs = make_atlas(font_path, chars, atlas_size=atlas_size)
     font_id, material_id, atlas_id = [max(asset.objects) + i for i in (1, 2, 3)]
     additions = []
     for old_id, new_id in ((5003, font_id), (23, material_id), (178, atlas_id)):
