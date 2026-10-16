@@ -9,14 +9,14 @@ https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength
 
 仓库保存 Python 工具、中文译文映射、依赖版本和构建说明。游戏 DLL、assets、原文全集、生成的补丁包均不入库。译文映射仅保存资源编号、原文哈希和中文译文；构建时从你的本地游戏文件读取原文。
 
-## 先找到这份教程
+## 下载工具和查看教程
 
-**当前教程和代码在 `work` 分支。** 如果仓库首页只有一行标题，请点击文件列表左上方显示 `main` 的分支按钮，切换到 `work`。
+教程和工具位于默认的 `main` 分支，打开仓库首页即可看到这份 README。
 
-- [直接打开带教程的 work 分支](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/tree/work)
-- [直接下载源码 ZIP](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/archive/refs/heads/work.zip)
+- [打开仓库首页及教程](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/tree/main)
+- [直接下载源码 ZIP](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/archive/refs/heads/main.zip)
 
-下载的是构建工具，不能直接覆盖到游戏里。下面会用你电脑上已经安装的原版游戏，在本地生成可安装的测试包。**不需要安装 Git，也不需要配置云环境或等 PR 合并。**
+下载的是构建工具，不能直接覆盖到游戏里。下面会用你电脑上已经安装的原版游戏，在本地生成可安装的测试包。**不需要安装 Git，也不需要配置云环境或操作 PR。**
 
 ## Windows：从下载到安装，一步一步做
 
@@ -94,7 +94,7 @@ orwell-zh-preview-0.1.zip
 
 | 看到的情况 | 接下来怎么做 |
 | --- | --- |
-| GitHub 首页只有一行标题 | 切换到 `work` 分支，或使用上面的直接链接。 |
+| 打开的是旧地址或旧页面 | 使用上面的仓库首页链接，确认分支为 `main`，然后刷新页面。 |
 | 找不到 `requirements.txt` 或 `tools/build_preview.py` | 命令窗口位置不对；进入同时包含这两个文件的解压目录，重新打开 PowerShell。 |
 | 提示找不到 `py` 或 Python 3.12 | 安装第 2 步指定的版本和启动器，然后重新打开 PowerShell。 |
 | 依赖安装出现红色报错或 `No matching distribution found` | 先停止，把报错末尾完整复制反馈；Windows 依赖安装尚未实机验证。 |
@@ -109,19 +109,6 @@ orwell-zh-preview-0.1.zip
 ```powershell
 .\.venv\Scripts\python.exe tools/build_preview.py --resources "E:\备份\resources.assets"
 ```
-
-## 为什么 main 首页还没有这份 README？
-
-提交在 `work` 工作分支，尚未合并到 `main`。创建 PR 的自动请求曾被云环境对 `api.github.com` 的网络限制拦截；这不影响上面的源码下载和本地构建。
-
-如果你作为仓库所有者，希望教程出现在默认 `main` 首页，可以：
-
-1. 打开 [work → main 的比较页面](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/compare/main...work?expand=1)。
-2. 确认 **base: main**、**compare: work**，点击 **Create pull request**，填写标题，例如“交付中文测试包工具和安装教程”，提交。
-3. 在 PR 页确认改动只包含源码、译文及说明，且没有合并冲突后，点击 **Merge pull request** → **Confirm merge**。如果页面提示已有 PR，打开已有 PR 即可；若按钮不可用，先查看页面提示，不要强行覆盖分支。
-4. 回到仓库首页，`main` 中便会显示合并后的 README。
-
-**只想安装测试小样的话，不需要做这一步。**
 
 ## 已验证与尚未验证的范围
 
