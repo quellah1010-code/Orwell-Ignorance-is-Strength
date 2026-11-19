@@ -1,135 +1,36 @@
-# Orwell: Ignorance is Strength 中文汉化项目
+# 《奥威尔》第二季中文测试版 · Windows 安装说明
 
-仓库：**[quellah1010-code/Orwell-Ignorance-is-Strength](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength)**。原名 `Orswell-ingnorance` 已重定向到此处。
+这一版调大了「任务 1」和「任务 3」的选项文字，也改了拖拽时的高亮。**已经下载并解压工具的人，直接从第 2 步开始。**
 
-目标是全游戏汉化。**目前交付 0.3 界面测试版，尚未完成全游戏翻译。**
+### 1. 下载工具，点「全部解压」
 
-本次加入欢迎页、创建档案流程、档案选项和设置页：130 处主菜单场景文字、39 条动态文字，包括“欢迎”“你已获准加入‘奥威尔’”“请创建个人档案”“空白档案”“创建”。保留上一版 14 条开场介绍及早期任务译文，字库覆盖已扩展到本次新增译文。
+[点这里下载汉化工具（ZIP）](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/archive/refs/heads/aptitude-layout-download.zip)
 
-制作人员名单正文、网页、邮件和绝大多数剧情尚未完整翻译。本次还翻译了能力测试的 63 处场景文字、34 条提交后的答案、20 条书签文字和 7 个任务栏标题，并加入姓名框对齐与裁切修正（待实机确认）。
+在 Windows 的「下载」文件夹找到它，右键点 **全部解压**。打开解压出来的文件夹，直到看见 **双击生成测试包.cmd**。如果你的电脑隐藏了扩展名，它会显示为「双击生成测试包」。
 
-游戏标识 ORWELL 保留，副标题译为“无知即力量”。**Windows 游戏内显示、换行和交互仍需实际测试。**
+### 2. 双击「双击生成测试包」，选择原版游戏
 
-仓库仅保存源码、中文映射和构建说明。原版 DLL、assets、场景、原文全集及生成的补丁 ZIP 均不入库。使用你电脑上的原版文件生成本地测试包。
+先退出游戏。双击脚本后，会弹出「选择原版游戏目录」窗口。
 
-## 已经用过 0.1 或 0.2：这样升级到 0.3
+- **已经装过旧汉化，而且留了原版备份**：选备份里那个叫 `Ignorance_Data` 的文件夹。里面应该有 `resources.assets`、`level1`、`level4`，以及 `Managed` 文件夹里的 `Assembly-CSharp.dll`。
+- **游戏还是原版**：直接选 Steam 游戏目录，例如 `E:\SteamLibrary\steamapps\common\Orwell Ignorance is Strength`。找不到时，在 Steam 库里右键游戏，点「管理」→「浏览本地文件」。
+- **装过旧汉化，又找不到原版备份**：先在 Steam 里右键游戏，点「属性」→「已安装文件」→「验证游戏文件的完整性」。等 Steam 恢复原版，再选游戏目录。
 
-1. [下载 main 分支源码 ZIP](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/archive/refs/heads/main.zip)，先“全部提取”到新文件夹。
-2. 打开解压内容，找到 `README.md`、`tools`、`translations`、`docs` 所在那一层。将这一层的所有内容复制到你原来的工具文件夹，例如 `Orwell-Ignorance-is-Strength-work`，同意替换。保留原来的 `.venv`、`.cache` 和原版备份，不需要重装依赖。
-3. 完全退出游戏。如果已安装旧测试包，先用备份恢复旧补丁修改过的原版文件。0.2 修改了 `resources.assets`、`level1` 和 `Managed/Assembly-CSharp.dll`，三者都要恢复。也可以在 Steam 中右键游戏 → 属性 → 已安装文件 → 验证游戏文件的完整性。不要把旧补丁文件作为原版输入。
-4. 在原工具文件夹的资源管理器地址栏输入 `powershell` 并回车，运行：
+点「确定」后，等黑色窗口跑完。第一次运行需要联网。成功时会自动弹出文件夹，帮你选中 **orwell-zh-menu-0.3.zip**。这个 ZIP 就是要装进游戏的汉化包。
 
-```powershell
-.\.venv\Scripts\python.exe tools/build_menu.py --game-dir "E:\SteamLibrary\steamapps\common\Orwell Ignorance is Strength"
-```
+### 3. 备份，然后安装
 
-游戏路径已按你的截图填写；若移动过游戏，请修改引号内的路径。成功后显示 `Local ZIP:`，安装包位于：
+1. 如果你已经存好了上面四个原版文件，可以直接往下做。否则先把游戏里的 `Ignorance_Data` 文件夹复制到游戏目录以外，留作备份。
+2. 对刚生成的 **orwell-zh-menu-0.3.zip** 点「全部解压」。打开里面的 `orwell-zh-menu-0.3` 文件夹，复制其中的 **Ignorance_Data** 文件夹。
+3. 打开 Steam 游戏目录。**看见原有的 Ignorance_Data 就在这里粘贴**，遇到同名文件选「替换」。这样四个新文件会进入各自的位置。
+4. 启动游戏，语言保持 **English（英语）**。进入「任务 1」，把鼠标移到最后一项「我是为了钱。」上，看看底色是否跟着这行字，再试着拖到左边。Windows 实机的显示和拖拽还需要验证。
 
-```text
-build\menu-0.3\orwell-zh-menu-0.3.zip
-```
+**想恢复原版？** 退出游戏，把备份的四个文件按原位置放回去，或者用 Steam 的「验证游戏文件的完整性」恢复。
 
-若直接使用原版备份，命令如下（将备份路径换成自己的）：
+### 如果卡住了
 
-```powershell
-.\.venv\Scripts\python.exe tools/build_menu.py --game-dir "E:\SteamLibrary\steamapps\common\Orwell Ignorance is Strength" --resources "C:\你的备份文件夹\resources.assets"
-```
+- **提示找不到 Python 或 py**：安装 Python 3.12 的「Windows installer (64-bit)」，安装时保留 Python Launcher，再双击脚本。[Python 官方下载页](https://www.python.org/downloads/release/python-31210/)
+- **提示缺少文件、版本不符或 already modified**：回到第 2 步，选择原版备份或 Steam 恢复后的游戏目录。
+- **其他错误**：把黑色窗口最后几行截个图，里面会显示卡在哪一步。
 
-如已存在 `build/menu-0.3`，在命令末尾加上 `--output build/menu-0.3-retry`，使用一个新目录。成功构建不代表已在 Windows 游戏内验证。
-
-## 第一次使用：安装 Python 和依赖
-
-不需要安装 Git，也不需要操作 PR 或云环境。
-
-1. [下载 main 源码 ZIP](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/archive/refs/heads/main.zip)，右键“全部提取”。打开能同时看到 `README.md`、`requirements.txt` 和 `tools` 的文件夹。
-2. 打开 [Python 3.12.10 官方下载页](https://www.python.org/downloads/release/python-31210/)，在 Files 中下载 **Windows installer (64-bit)**。安装时勾选 **Add python.exe to PATH**，保留 Python Launcher（`py` 启动器），点击 Install Now。
-3. 在工具文件夹的资源管理器地址栏输入 `powershell`，按回车，不需要管理员权限。
-4. 逐条运行以下命令，每条结束后再运行下一条；遇到报错先停下：
-
-```powershell
-py -3.12 --version
-```
-
-应显示 `Python 3.12.x`。然后运行：
-
-```powershell
-py -3.12 -m venv .venv
-```
-
-```powershell
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-```
-
-```powershell
-.\.venv\Scripts\python.exe tools/build_menu.py --game-dir "E:\SteamLibrary\steamapps\common\Orwell Ignorance is Strength"
-```
-
-安装依赖和首次下载开放字体需要联网。脚本校验输入文件和字体版本，只读取游戏目录，不会自动安装或替换游戏文件。
-
-## 安装 0.3：备份和替换四个文件
-
-**0.3 会修改资源、主菜单场景、能力测试场景和程序集中的界面文字。必须备份下面四个原版文件。**
-
-1. 完全退出游戏。在 Steam 游戏库中右键游戏 →“管理”→“浏览本地文件”。
-2. 将以下文件复制到游戏目录外的备份文件夹，保留对应的文件名和目录结构。若装过 0.1，`resources.assets` 要使用安装 0.1 前保存的原版备份。
-
-```text
-Ignorance_Data/resources.assets
-Ignorance_Data/level1
-Ignorance_Data/level4
-Ignorance_Data/Managed/Assembly-CSharp.dll
-```
-
-3. 解压生成的 `orwell-zh-menu-0.3.zip`，进入其中的 `orwell-zh-menu-0.3` 文件夹。
-4. 将包内 `Ignorance_Data` 中的四个文件复制到游戏对应位置，同意替换。不要删除整个 `Managed` 或 `Ignorance_Data` 文件夹，也不要复制 `text-only-internal.assets` 等中间文件。
-5. 启动游戏，保持英文语言设置。未创建档案时应看到中文欢迎页、“空白档案”和“创建”；已有存档时首页可能不同，自己的档案名称不会被改写。
-6. 查看设置页，进入创建档案流程，检查中文、换行、头像和姓名输入、按钮点击及取消返回。长条款和隐私说明也需要检查是否遮挡。继续进入能力测试，检查各题、拖拽高亮、左侧答案及结果提示；姓名框的边线和文字裁切修正也需反馈。不要为了测试删除已有存档。
-
-完整说明见 [0.3 安装与还原说明](docs/menu-install.txt)。
-
-## 怎样还原
-
-退出游戏，将备份的 **`resources.assets`、`level1`、`level4`、`Managed/Assembly-CSharp.dll` 四个原版文件** 全部复制回对应位置。
-
-只还原 `resources.assets` 会留下另外三处修改，不能算完整卸载。
-
-## 常见问题
-
-| 情况 | 操作 |
-| --- | --- |
-| 找不到 `build_menu.py` | 将新的 `tools` 文件夹完整复制到原来的工具文件夹。 |
-| 找不到 `requirements.txt` | 在包含该文件的解压目录重新打开 PowerShell。 |
-| `py` 或 Python 3.12 不存在 | 安装上面指定的版本及启动器，重新打开 PowerShell。 |
-| `Unsupported source build or already modified resources.assets` | 原版资源不匹配或仍装着旧补丁。恢复原版，或使用 `--resources` 指定原版备份。 |
-| `level1`、`level4` 或 `Assembly-CSharp.dll` 版本不匹配 | 使用本次 Steam 版本的原版文件；装过 0.2 或 0.3 时要还原被修改的文件才能重建。不要跳过校验。 |
-| `Output already exists` | 命令末尾加上 `--output build/menu-0.3-retry`，使用尚不存在的目录。 |
-| 字体下载失败、依赖安装失败 | 先停止，将报错末尾完整反馈。 |
-| 运行的还是 `build_preview.py` | 那是旧 0.1 工具，只处理 14 条对白。当前界面版请用 `build_menu.py`。 |
-| 游戏仍是英文或中文变方框 | 检查是否使用 0.3 ZIP、四个文件是否均替换到正确游戏目录；反馈截图。 |
-| 游戏异常或无法启动 | 退出并恢复四个原版文件，再反馈问题。 |
-
-## 已验证范围
-
-- Linux / Python 3.12 完整构建成功，ZIP 的 CRC 和四份打包文件的 SHA-256 校验通过。
-- 主菜单文字保留上一版的字段验证；能力测试正文保留完整链接标记和选项 ID。姓名框额外调整了 8 个对象的布局及文字显示字段，其他场景对象保持不变。
-- 39 条动态文字仅修改程序集用户字符串区的选定条目，保留全部方法代码和引用位置。检查了 10,942 个方法中的 2,952 次字符串引用。
-- 原有 14 条译文、字体引用及字形贴图编码回读通过。字库明确使用 BASIC 排版引擎，避免旧版默认引擎不同造成的差异。
-- 错误输入、被改坏的占位符和超过原槽位容量的程序集译文会被拒绝。
-- **尚未完成 0.3 的 Windows 打包及游戏内渲染、换行和交互验证。** 资源结构检查不能替代这些测试。
-
-见 [0.3 校验记录](docs/aptitude-verification.json)和[旧版校验记录](docs/delivery-verification.json)。
-
-## 源码和映射
-
-- `tools/build_menu.py`：当前 0.3 构建入口。
-- `tools/menu_patch.py`：场景文字及程序动态文字回填和校验。
-- `tools/aptitude_patch.py`、`translations/aptitude.zh-CN.json`：能力测试题目、选项及答案回填。
-- `translations/input-layout.json`：姓名框的少量布局及文字显示字段调整。
-- `translations/menu.zh-CN.json`：130 处场景译文、39 条动态译文，以及编号和原文哈希；不包含原文列。
-- `translations/preview.zh-CN.json`：保留的 14 条对白与任务译文。
-- `tools/build_preview_font.py`：生成中文备用字库。
-- `tools/build_preview.py`：旧 0.1 构建入口，保留供排查问题。
-- `tools/orwell_resources.py`、`tools/inspect_assembly.py`：资源提取、回填和静态分析工具。
-- `licenses/Noto-OFL.txt`：Noto CJK 开放字体许可。
-
-生成的 `build/`、字体缓存、上传的游戏文件都不应提交到 GitHub 或公开发布。`.gitignore` 已排除这些文件，不要移除相应规则。
+本包只覆盖部分界面和开场内容。需要查文件清单、字体许可或原版 0.3 的构建命令时，可看[原版 0.3 技术说明](https://github.com/quellah1010-code/Orwell-Ignorance-is-Strength/blob/737e52a90b7b833bf153f7ce6318be57475fa0d9/README.md)。
