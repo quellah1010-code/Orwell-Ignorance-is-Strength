@@ -8,8 +8,6 @@ from aptitude_patch import load, save_checked
 from orwell_resources import encode_string
 
 
-# The verified level4 has one background Button per link on these two pages.
-OPTION_LABELS = (1018, 964)
 OPTION = re.compile(r'<link="([^"]+)"><color=#[0-9a-fA-F]{6}>([^<>]+)</color></link>')
 
 
@@ -64,9 +62,23 @@ def task_buttons(asset, game_object, links):
         if obj.type.name != 'MonoBehaviour' or struct.unpack_from('<iq', raw, 16) != (1, 650):
             continue
         names = [name for name in links if encode_string(name) in raw]
-        if len(names) != 1 or names[0] in buttons or struct.unpack_from('<ii', raw, len(raw)-16) != (1, 0):
-            raise ValueError('Expected one background button per aptitude link.')
-        buttons[names[0]] = struct.unpack_from('<q', raw, len(raw)-8)[0]
+        if len(names) != 1 or names[0] in buttons:
+            raise ValueError('Unexpected or duplicate aptitude link ID.')
+        # The final serialized field is a Button list, one entry per original
+        # English line fragment. TMP can render all wrapped lines in one mark.
+        end = len(raw)
+        selected = []
+        while end >= 12:
+            file_id, pid = struct.unpack_from('<iq', raw, end - 12)
+            candidate = asset.objects.get(pid)
+            if (file_id or candidate is None or candidate.type.name != 'MonoBehaviour'
+                    or struct.unpack_from('<iq', candidate.get_raw_data(), 16) != (1, 73)):
+                break
+            selected.append(pid)
+            end -= 12
+        if not selected or struct.unpack_from('<i', raw, end - 4)[0] != len(selected):
+            raise ValueError('Invalid aptitude background button list.')
+        buttons[names[0]] = (obj.path_id, end - 4, selected[::-1])
     if set(buttons) != set(links):
         raise ValueError('Link and button IDs differ.')
     return buttons
@@ -75,7 +87,6 @@ def task_buttons(asset, game_object, links):
 def patch_highlights(content, aptitude):
     asset, expected = load(content)
     objects = asset.objects
-    entries = {row['path_id']: row for row in aptitude['scene']}
 
     def clone(template):
         pid = max(objects) + 1
@@ -90,9 +101,11 @@ def patch_highlights(content, aptitude):
         write(pid, objects[pid].save_typetree(tree))
 
     report = {}
-    for label in OPTION_LABELS:
-        entry = entries[label]
+    for entry in aptitude['scene']:
+        label = entry['path_id']
         original = entry['target']
+        if '<link=' not in original:
+            continue
         lines = original.split('\r\n')
         matches = [OPTION.fullmatch(line) for line in lines]
         if not all(matches):
@@ -113,7 +126,13 @@ def patch_highlights(content, aptitude):
         foreground = '<size=125%>' + original + '</size>'
         write(label, scene_text(raw, entry['offset'], original, foreground))
 
-        for name, button in buttons.items():
+        for name, (chunk, list_offset, cached_buttons) in buttons.items():
+            button = cached_buttons[0]
+            for redundant in cached_buttons[1:]:
+                old_box = objects[owner(expected[redundant])].read_typetree()
+                if old_box['m_IsActive']:
+                    raise ValueError('Expected an inactive cached line fragment.')
+            write(chunk, expected[chunk][:list_offset] + struct.pack('<iiq', 1, 0, button))
             button_raw = expected[button]
             box_go = owner(button_raw)
             box = objects[box_go].read_typetree()
