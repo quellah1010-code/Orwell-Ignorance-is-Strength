@@ -12,6 +12,7 @@ from build_preview import ROOT, LICENSE_SHA256, translation_rows, verified_font
 from build_preview_font import build as build_font
 from menu_patch import digest, patch_assembly, patch_scene
 from orwell_resources import patch
+from aptitude_highlight import patch_highlights
 from aptitude_patch import patch_resources, patch_layout
 
 
@@ -31,6 +32,7 @@ def deliver(game_dir, resources, font, output):
     scene, scene_report = patch_scene((data / 'level1').read_bytes(), mapping)
     scene, layout_report = patch_layout(scene, layout)
     aptitude_scene, aptitude_scene_report = patch_scene((data / 'level4').read_bytes(), aptitude, filename='level4')
+    aptitude_scene, aptitude_layout_report = patch_highlights(aptitude_scene, aptitude)
     assembly, assembly_report = patch_assembly((data / 'Managed/Assembly-CSharp.dll').read_bytes(), mapping)
     license_path = ROOT / 'licenses/Noto-OFL.txt'
     if digest(license_path.read_bytes()) != LICENSE_SHA256:
@@ -69,7 +71,8 @@ def deliver(game_dir, resources, font, output):
         'source_hashes': {**mapping['source_hashes'], **aptitude['source_hashes']},
         'output_hashes': hashes, 'scene': scene_report, 'assembly': assembly_report,
         'font_and_dialogue_before_aptitude_patch': font_report, 'aptitude_scene': aptitude_scene_report,
-        'aptitude_resources': resource_report, 'input_layout': layout_report, 'runtime_tested': False,
+        'aptitude_resources': resource_report, 'input_layout': layout_report,
+        'aptitude_layout': aptitude_layout_report, 'runtime_tested': False,
     }
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
     shutil.copyfile(ROOT / 'docs/menu-install.txt', package / '先读我.txt')

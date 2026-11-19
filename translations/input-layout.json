@@ -6,77 +6,50 @@
       "path_id": 1041,
       "source_object_sha256": "246b4fbedd533d2b542006b2175657b6da67a62ec92318301a18650a9b1dfd3f",
       "fields": {
-        "m_AnchorMin": {
-          "x": 0.0,
-          "y": 0.0
-        },
-        "m_AnchorMax": {
-          "x": 1.0,
-          "y": 1.0
-        },
         "m_AnchoredPosition": {
-          "x": 0.0,
-          "y": 0.0
-        },
-        "m_SizeDelta": {
-          "x": -68.0,
-          "y": -16.0
-        },
-        "m_Pivot": {
-          "x": 0.5,
-          "y": 0.5
+          "x": 34.0,
+          "y": -72.0
         },
         "m_LocalPosition": {
-          "x": 560.0,
-          "y": 40.0,
+          "x": 34.0,
+          "y": 8.0,
           "z": 0.0
+        },
+        "m_SizeDelta": {
+          "x": 1052.0,
+          "y": 64.0
         }
       },
       "edits": [
         {
           "offset": 30,
           "before_hex": "0000",
-          "after_hex": "0c44"
+          "after_hex": "0842"
         },
         {
-          "offset": 34,
+          "offset": 35,
+          "before_hex": "00",
+          "after_hex": "41"
+        },
+        {
+          "offset": 86,
           "before_hex": "0000",
-          "after_hex": "2042"
-        },
-        {
-          "offset": 74,
-          "before_hex": "803f",
-          "after_hex": "0000"
-        },
-        {
-          "offset": 78,
-          "before_hex": "0000",
-          "after_hex": "803f"
+          "after_hex": "0842"
         },
         {
           "offset": 90,
-          "before_hex": "a0c2",
-          "after_hex": "0000"
+          "before_hex": "a0",
+          "after_hex": "90"
         },
         {
           "offset": 93,
-          "before_hex": "c08744",
-          "after_hex": "0088c2"
+          "before_hex": "c087",
+          "after_hex": "8083"
         },
         {
           "offset": 98,
-          "before_hex": "9842",
-          "after_hex": "80c1"
-        },
-        {
-          "offset": 103,
-          "before_hex": "00",
-          "after_hex": "3f"
-        },
-        {
-          "offset": 107,
-          "before_hex": "00",
-          "after_hex": "3f"
+          "before_hex": "98",
+          "after_hex": "80"
         }
       ]
     },
